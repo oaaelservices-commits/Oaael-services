@@ -118,6 +118,7 @@ export default function RootLayout({
         <meta name="geo.placename" content="Riyadh" />
         <meta name="geo.position" content="24.7136;46.6753" />
         <meta name="ICBM" content="24.7136, 46.6753" />
+        <meta name="google-site-verification" content="n3pMZv6StzLd54gLqSvJo0ojtA2qQfKSz_3ASVPWyuA" />
       </head>
       <body className={yearOfHandicrafts.className}>
         {children}
