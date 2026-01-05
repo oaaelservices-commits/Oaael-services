@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const services = [
     { name: 'عزل فوم بالرياض', href: '/services/foam-insulation' },
-    { name: 'عزل شينكو بالرياض', href: '/services/roof-insulation' },
+    { name: 'عزل شينكو بالرياض', href: '/servicesroof-insulation-shinko' },
     { name: 'عزل فوم بالخرج', href: '/services/tank-insulation' },
     { name: 'عزل أسطح بالرياض', href: '/services/leak-detection' },
     { name: 'عزل حراري', href: '/services/thermal-insulation' },

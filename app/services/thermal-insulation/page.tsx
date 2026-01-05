@@ -159,7 +159,7 @@ export default function ThermalInsulationPage() {
                 services={[
                     { title: 'عزل فوم', description: 'الحل المتكامل للعزل', href: '/services/foam-insulation', icon: <Award className="w-6 h-6" /> },
                     { title: 'عزل مائي', description: 'حماية من التسربات', href: '/services/waterproof-insulation', icon: <CheckCircle className="w-6 h-6" /> },
-                    { title: 'عزل شينكو', description: 'للمستودعات والهناجر', href: '/services/roof-insulation', icon: <Home className="w-6 h-6" /> },
+                    { title: 'عزل شينكو', description: 'للمستودعات والهناجر', href: '/servicesroof-insulation-shinko', icon: <Home className="w-6 h-6" /> },
                 ]}
             />
 
