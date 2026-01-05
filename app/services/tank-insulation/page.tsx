@@ -22,11 +22,12 @@ import {
     AreasCovered,
     MaterialShowcase,
     ProcessVisualizer,
-    TechSpecs
+    TechSpecs,
+    ImageGallery
 } from '@/components/AdvancedSections'
 
 export const metadata: Metadata = {
-    title: 'شركة عزل فوم بالخرج | أفضل عزل فوم بالخرج - ضمان 10 سنوات ✅',
+    title: 'شركة عزل فوم بالخرج | أفضل عزل فوم بالخرج - 0551777962 ✅',
     description: 'شركة عزل فوم بالخرج متخصصة في عزل الفوم البولي يوريثان ✅ عزل حراري ومائي ✅ ضمان 10 سنوات ✅ توفير 50% من الكهرباء ✅ نخدم الخرج والدلم والمناطق المجاورة. اتصل الآن: 0551777962',
     keywords: ['عزل فوم بالخرج', 'شركة عزل فوم الخرج', 'عزل بولي يوريثان بالخرج', 'عزل اسطح بالخرج', 'عزل حراري الخرج', 'عزل مائي الخرج'],
 }
@@ -286,6 +287,18 @@ export default function FoamInsulationKharjPage() {
                 ]}
                 beforeImage="/images/roof9.webp"
                 afterImage="/images/roof12.webp"
+            />
+
+            {/* Gallery */}
+            <ImageGallery
+                title="معرض مشاريع الفوم بالخرج"
+                subtitle="أحدث مشاريعنا في المنطقة"
+                images={[
+                    { src: '/images/closed-cell-spray-foam-on-house-garage-walls.webp', alt: 'عزل جدران', title: 'عزل جدران بالخرج', location: 'حي العزيزية' },
+                    { src: '/images/best-practices-spray-foam-installation-on-roof.webp', alt: 'عزل سطح', title: 'عزل سطح شينكو', location: 'الصناعية' },
+                    { src: '/images/technician-applying-spray-foam-in-attic.webp', alt: 'فوم بولي يوريثان', title: 'عزل مزارع', location: 'اليمامة' },
+                    { src: '/images/roof12.webp', alt: 'عزل فوم كامل', title: 'عزل حراري مائي', location: 'حي الناصرية' },
+                ]}
             />
 
             {/* ========================================

@@ -1,20 +1,19 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Cairo } from 'next/font/google'
+import localFont from 'next/font/local'
 import StructuredData from '@/components/StructuredData'
 
-const cairo = Cairo({
-  subsets: ['arabic', 'latin'],
-  weight: ['400', '500', '600', '700'],
+const yearOfHandicrafts = localFont({
+  src: './fonts/TheYearofHandicrafts-Regular.otf',
   display: 'swap',
-  variable: '--font-cairo',
+  variable: '--font-year-of-handicrafts',
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://insulation-riyadh.com'),
+  metadataBase: new URL('https://elazzl.sa/'),
   title: {
-    default: "شركة عزل فوم بالرياض و الخرج | عزل فوم - عزل حراري - عزل مائي | خبرة 15 سنة ✅",
-    template: '%s | شركة عزل فوم بالرياض و الخرج - خبرة 15 سنة'
+    default: "شركة عزل فوم بالرياض و الخرج | 0551777962 | عزل فوم - عزل حراري - عزل مائي",
+    template: '%s | شركة عزل فوم بالرياض و الخرج | 0551777962'
   },
   description: "شركة عزل فوم بالرياض والخرج ✅ خبرة 15 سنة في عزل الفوم والعزل الحراري والمائي ✅ ضمان 10 سنوات ✅ أسعار تنافسية ✅ فريق محترف ✅ كشف تسربات المياه ✅ عزل خزانات. نخدم جميع أحياء الرياض: الملقا، الياسمين، النرجس، العليا، الروضة. اتصل الآن: 0551777962",
   keywords: [
@@ -72,7 +71,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'ar_SA',
-    url: 'https://insulation-riyadh.com',
+    url: 'https://elazzl.sa/',
     title: 'شركة عزل أسطح بالرياض | عزل فوم - عزل حراري - عزل مائي | خبرة 15 سنة',
     description: 'شركة عزل أسطح بالرياض والخرج ✅ خبرة 15 سنة في عزل الفوم والعزل الحراري والمائي ✅ ضمان 10 سنوات ✅ أسعار تنافسية ✅ فريق محترف. نخدم جميع أحياء الرياض. اتصل الآن!',
     siteName: 'شركة عزل أسطح بالرياض',
@@ -120,7 +119,7 @@ export default function RootLayout({
         <meta name="geo.position" content="24.7136;46.6753" />
         <meta name="ICBM" content="24.7136, 46.6753" />
       </head>
-      <body className={cairo.className}>
+      <body className={yearOfHandicrafts.className}>
         {children}
         <FloatingButtons />
         <StructuredData type="website" />

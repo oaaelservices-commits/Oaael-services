@@ -22,11 +22,12 @@ import {
     AreasCovered,
     MaterialShowcase,
     ProcessVisualizer,
-    TechSpecs
+    TechSpecs,
+    ImageGallery
 } from '@/components/AdvancedSections'
 
 export const metadata: Metadata = {
-    title: 'شركة عزل شينكو بالرياض | أفضل عزل ساندوتش بانل - ضمان 15 سنة ✅',
+    title: 'شركة عزل شينكو بالرياض | 0551777962 - ضمان 15 سنة ',
     description: 'شركة عزل شينكو بالرياض متخصصة في تركيب ألواح الشينكو والساندوتش بانل ✅ عزل حراري ومائي ممتاز ✅ ضمان 15 سنة ✅ توفير 60% من الكهرباء ✅ مثالي للمستودعات والمصانع. اتصل الآن: 0551777962',
     keywords: ['عزل شينكو بالرياض', 'شركة عزل شينكو', 'ساندوتش بانل بالرياض', 'عزل مستودعات', 'عزل مصانع', 'ألواح شينكو', 'عزل هناجر'],
 }
@@ -286,6 +287,18 @@ export default function ShinkoInsulationPage() {
                 ]}
                 beforeImage="/images/roof8.webp"
                 afterImage="/images/roof11.webp"
+            />
+
+            {/* Gallery */}
+            <ImageGallery
+                title="معرض مشاريع الشينكو"
+                subtitle="تركيب وعزل الهناجر والمستودعات"
+                images={[
+                    { src: '/images/roof8.webp', alt: 'تركيب شينكو', title: 'تركيب هناجر', location: 'الصناعية الثانية' },
+                    { src: '/images/roof11.webp', alt: 'ساندوتش بانل', title: 'مستودع تبريد', location: 'شمال الرياض' },
+                    { src: '/images/thermal-acoustic-foam-insulation-on-roof.webp', alt: 'عزل شينكو', title: 'عزل مصنع', location: 'الخرج' },
+                    { src: '/images/exposed-spray-foam-insulation-in-roof-structure.webp', alt: 'هيكل معدني', title: 'أسقف معدنية', location: 'حي السلي' },
+                ]}
             />
 
             {/* ========================================

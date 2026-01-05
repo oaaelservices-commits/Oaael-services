@@ -22,11 +22,12 @@ import {
     AreasCovered,
     MaterialShowcase,
     ProcessVisualizer,
-    TechSpecs
+    TechSpecs,
+    ImageGallery
 } from '@/components/AdvancedSections'
 
 export const metadata: Metadata = {
-    title: 'شركة عزل أسطح بالخرج | أفضل عزل اسطح بالخرج - ضمان 10 سنوات ✅',
+    title: 'شركة عزل أسطح بالخرج | أفضل عزل اسطح بالخرج - 0551777962 ',
     description: 'شركة عزل أسطح بالخرج متخصصة في عزل الأسطح من الحرارة والمياه ✅ عزل حراري ومائي ✅ ضمان 10 سنوات ✅ توفير 45% من الكهرباء ✅ نخدم الخرج والدلم. اتصل الآن: 0551777962',
     keywords: ['عزل أسطح بالخرج', 'شركة عزل اسطح الخرج', 'عزل حراري بالخرج', 'عزل مائي بالخرج', 'عزل سطح المنزل بالخرج', 'أفضل شركة عزل بالخرج'],
 }
@@ -286,6 +287,18 @@ export default function RoofInsulationKharjPage() {
                 ]}
                 beforeImage="/images/roof8.webp"
                 afterImage="/images/roof10.webp"
+            />
+
+            {/* Gallery */}
+            <ImageGallery
+                title="مشاريعنا في الخرج"
+                subtitle="عزل أسطح في محافظة الخرج والدلم"
+                images={[
+                    { src: '/images/spray-foam-roofing-01.webp', alt: 'عزل سطح بالخرج', title: 'عزل فوم بالخرج', location: 'حي الخالدية' },
+                    { src: '/images/roof10.webp', alt: 'عزل فيلا', title: 'عزل سطح فيلا', location: 'الدلم' },
+                    { src: '/images/roof.webp', alt: 'تجهيز السطح', title: 'عزل مائي وحراري', location: 'حي الريان' },
+                    { src: '/images/worker-spraying-foam-insulation-on-ceiling.webp', alt: 'رش الفوم', title: 'عزل استراحات', location: 'الهياثم' },
+                ]}
             />
 
             {/* ========================================

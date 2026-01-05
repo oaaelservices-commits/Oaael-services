@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getBlogPost, getAllBlogPosts, getRelatedPosts } from '@/lib/blog-data'
 import { Calendar, Clock, User, ArrowRight, Facebook, Twitter, Linkedin, MessageCircle, Phone, CheckCircle } from 'lucide-react'
+import StructuredData from '@/components/StructuredData'
 
 // Generate metadata for each blog post
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
@@ -65,6 +66,18 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
 
   return (
     <div className="min-h-screen bg-gray-50 font-sans" dir="rtl">
+      <StructuredData
+        type="article"
+        pageData={{
+          title: post.title,
+          description: post.excerpt,
+          url: `https://elazzl.sa/blog/${post.slug}`,
+          publishedTime: post.date,
+          author: post.author || 'شركة عزل أسطح بالرياض',
+          category: post.category,
+          image: post.image
+        }}
+      />
 
       {/* Immersive Hero Section */}
       <div className="relative h-[60vh] min-h-[500px] w-full bg-slate-900">
@@ -196,16 +209,16 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
                 <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <Phone className="w-8 h-8 text-amber-500" />
                 </div>
-                <h3 className="text-2xl font-bold mb-3">هل تبحث عن شركة نقل موثوقة؟</h3>
+                <h3 className="text-2xl font-bold mb-3">هل تبحث عن شركة عزل موثوقة؟</h3>
                 <p className="text-gray-300 mb-6 text-sm leading-relaxed">
-                  فريقنا المحترف جاهز لمساعدتك في نقل أثاثك بأمان وكفاءة. احصل على استشارة مجانية وعرض سعر الآن.
+                  فريقنا المحترف جاهز لمساعدتك في عزل منزلك بأمان وكفاءة. احصل على استشارة مجانية وعرض سعر الآن.
                 </p>
 
                 <div className="space-y-4">
                   <Link href="/contact" className="block w-full bg-amber-500 text-slate-900 font-bold py-3 px-6 rounded-xl hover:bg-amber-400 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all">
                     اطلب عرض سعر الآن
                   </Link>
-                  <a href="tel:0500000000" className="block w-full bg-white/10 backdrop-blur-sm border border-white/20 text-white font-semibold py-3 px-6 rounded-xl hover:bg-white/20 transition-colors">
+                  <a href="tel:0551777962" className="block w-full bg-white/10 backdrop-blur-sm border border-white/20 text-white font-semibold py-3 px-6 rounded-xl hover:bg-white/20 transition-colors">
                     اتصل بنا مباشرة
                   </a>
                 </div>

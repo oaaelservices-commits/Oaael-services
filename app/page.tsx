@@ -29,7 +29,7 @@ import { Neighborhoods } from "@/components/Neighborhoods";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-white overflow-x-hidden">
       <Navbar />
 
       {/* 1. Narrative Hero Section - قصصي */}

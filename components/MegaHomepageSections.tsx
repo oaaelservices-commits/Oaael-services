@@ -33,12 +33,12 @@ export function NarrativeHero() {
                         {/* Badge */}
                         <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md rounded-full px-6 py-3 border border-white/20">
                             <Star className="w-5 h-5 text-brand-orange-400 fill-brand-orange-400" />
-                            <span className="text-white font-medium">الشركة الرائدة في عزل الأسطح بالرياض منذ 2009</span>
+                            <span className="text-white font-medium">الشركة الرائدة في عزل الفوم بالرياض منذ 2009</span>
                         </div>
 
                         {/* Main Heading */}
                         <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
-                            <span className="block">شركة عزل أسطح بالرياض</span>
+                            <span className="block">شركة عزل فوم بالرياض</span>
                             <span className="block mt-3 bg-gradient-to-l from-brand-orange-300 via-brand-orange-400 to-brand-orange-500 bg-clip-text text-transparent">
                                 حماية شاملة لمنزلك
                             </span>
@@ -103,9 +103,9 @@ export function NarrativeHero() {
                             <div className="absolute inset-0 bg-gradient-to-t from-navy-800/80 via-transparent to-transparent" />
                         </div>
 
-                  
 
-                 
+
+
                     </div>
                 </div>
             </div>
@@ -262,7 +262,7 @@ export function DeepExplanation() {
     ]
 
     return (
-        <section className="py-20 bg-gray-50">
+        <section className="py-20 bg-gray-50 overflow-hidden">
             <div className="container mx-auto px-4">
                 {/* Header */}
                 <div className="text-center mb-16">

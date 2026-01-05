@@ -22,8 +22,10 @@ import {
     AreasCovered,
     MaterialShowcase,
     ProcessVisualizer,
-    TechSpecs
+    TechSpecs,
+    ImageGallery
 } from '@/components/AdvancedSections'
+import StructuredData from '@/components/StructuredData'
 
 export const metadata: Metadata = {
     title: 'عزل فوم بالرياض | أفضل شركة عزل فوم بالرياض - ضمان 10 سنوات ✅',
@@ -34,6 +36,14 @@ export const metadata: Metadata = {
 export default function FoamInsulationPage() {
     return (
         <>
+            <StructuredData
+                type="service"
+                pageData={{
+                    title: 'شركة عزل فوم بالرياض | 0551777962',
+                    description: 'شركة عزل فوم بالرياض متخصصة في عزل الفوم الرغوي بولي يوريثان ✅ عزل حراري ومائي ✅ ضمان 10 سنوات ✅ توفير 50% من الكهرباء ✅ أسعار تنافسية تبدأ من 55 ريال/م². اتصل الآن: 0551777962',
+                    url: 'https://elazzl.sa/services/foam-insulation'
+                }}
+            />
             <Navbar />
 
             {/* ========================================
@@ -287,6 +297,20 @@ export default function FoamInsulationPage() {
                 ]}
                 beforeImage="/images/roof9.webp"
                 afterImage="/images/roof12.webp"
+            />
+
+            {/* ========================================
+          Gallery Section
+      ======================================== */}
+            <ImageGallery
+                title="معرض مشاريع عزل الفوم"
+                subtitle="صور من مواقع العمل"
+                images={[
+                    { src: '/images/spray-foam-roofing-01.webp', alt: 'عزل فوم لفيلا بالرياض', title: 'عزل فوم فيلا سكنية', location: 'حي الملقا' },
+                    { src: '/images/roof12.webp', alt: 'عزل حراري للسطح', title: 'عزل حراري مائي', location: 'حي الياسمين' },
+                    { src: '/images/technician-applying-spray-foam-in-attic.webp', alt: 'رش الفوم العازل', title: 'تنفيذ عزل فوم', location: 'شمال الرياض' },
+                    { src: '/images/roof10.webp', alt: 'عزل مستودع', title: 'عزل هناجر', location: 'الصناعية' },
+                ]}
             />
 
             {/* ========================================

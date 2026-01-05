@@ -19,11 +19,12 @@ import {
     CaseStudy,
     TestimonialsCarousel,
     PricingCards,
-    AreasCovered
+    AreasCovered,
+    ImageGallery
 } from '@/components/AdvancedSections'
 
 export const metadata: Metadata = {
-    title: 'عزل مائي بالرياض | أفضل شركة عزل مائي للأسطح - ضمان 7 سنوات ✅',
+    title: 'عزل مائي بالرياض | أفضل شركة عزل مائي للأسطح -  0551777962  ✅',
     description: 'شركة عزل مائي بالرياض متخصصة في منع تسرب المياه والرطوبة ✅ عزل الأسطح والحمامات والخزانات ✅ ضمان 7 سنوات ✅ مواد بيتومين معتمدة. اتصل: 0551777962',
     keywords: ['عزل مائي بالرياض', 'عزل مائي للأسطح', 'عزل ضد الماء', 'عزل الرطوبة', 'عزل بيتومين', 'منع تسرب المياه'],
 }
@@ -212,6 +213,18 @@ export default function WaterproofInsulationPage() {
                     { feature: 'مناسب للحمامات', options: [true, false, true] },
                     { feature: 'سهولة التطبيق', options: ['متوسطة', 'سهل', 'سهل'] },
                     { feature: 'السعر (ريال/م²)', options: ['30-35', '20-25', '35'] },
+                ]}
+            />
+
+            {/* Gallery */}
+            <ImageGallery
+                title="معرض مشاريع العزل المائي"
+                subtitle="صور حقيقية من مواقع العمل"
+                images={[
+                    { src: '/images/roof2.webp', alt: 'عزل مائي سطح', title: 'عزل سطح مبلط', location: 'حي النرجس' },
+                    { src: '/images/roof12.webp', alt: 'عزل حمامات', title: 'عزل مائي للحمامات', location: 'الرياض' },
+                    { src: '/images/best-practices-spray-foam-installation-on-roof.webp', alt: 'عزل بيتومين', title: 'عزل قواعد وأساسات', location: 'حي الملقا' },
+                    { src: '/images/polyurethane-foam-insulation-application.webp', alt: 'عزل مسبح', title: 'عزل مسابح', location: 'شمال الرياض' },
                 ]}
             />
 

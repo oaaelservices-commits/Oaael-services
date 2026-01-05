@@ -6,7 +6,7 @@ export const seoConfig = {
   website: {
     name: 'شركة عزل أسطح بالرياض',
     nameEn: 'Riyadh Roof Insulation Company',
-    url: 'https://insulation-riyadh.com',
+    url: 'https://elazzl.sa/',
     domain: 'insulation-riyadh.com',
     phone: '0551777962',
     whatsapp: '966551777962',
@@ -151,8 +151,8 @@ export const seoConfig = {
       '@type': 'HomeAndConstructionBusiness',
       name: 'شركة عزل أسطح بالرياض',
       alternateName: ['عزل فوم الرياض', 'شركة العزل المتقدم'],
-      url: 'https://insulation-riyadh.com',
-      logo: 'https://insulation-riyadh.com/logo.png',
+      url: 'https://elazzl.sa/',
+      logo: 'https://elazzl.sa//logo.png',
       telephone: '+966551777962',
       email: 'info@insulation-riyadh.com',
       address: {
