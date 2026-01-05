@@ -11,7 +11,7 @@ const Navbar = () => {
     { name: 'عزل فوم بالرياض', href: '/services/foam-insulation' },
     { name: 'عزل شينكو بالرياض', href: '/services/roof-insulation' },
     { name: 'عزل فوم بالخرج', href: '/services/tank-insulation' },
-    { name: 'عزل أسطح بالخرج', href: '/services/leak-detection' },
+    { name: 'عزل أسطح بالرياض', href: '/services/leak-detection' },
     { name: 'عزل حراري', href: '/services/thermal-insulation' },
     { name: 'عزل مائي', href: '/services/waterproof-insulation' },
   ]

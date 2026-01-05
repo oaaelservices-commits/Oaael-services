@@ -35,7 +35,7 @@ export default function ContactPage() {
             icon: <Mail className="w-8 h-8" />,
             title: 'البريد الإلكتروني',
             description: 'للطلبات الرسمية والمشاريع الكبرى',
-            action: 'info@exzo.com',
+       
             href: 'mailto:info@exzo.com',
             color: 'bg-blue-500',
             textColor: 'text-blue-500',
@@ -108,49 +108,19 @@ export default function ContactPage() {
                                     <div className="w-12 h-12 bg-navy-100 rounded-xl flex items-center justify-center flex-shrink-0 text-navy-600">
                                         <Clock className="w-6 h-6" />
                                     </div>
-                                    <div>
-                                        <h3 className="text-lg font-bold text-gray-900 mb-1">ساعات العمل</h3>
-                                        <p className="text-gray-600">السبت - الخميس: 7:00 صباحاً - 10:00 مساءً</p>
-                                        <p className="text-gray-600">الجمعة: 2:00 ظهراً - 10:00 مساءً</p>
-                                    </div>
+                           
                                 </div>
 
                                 <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-2xl">
                                     <div className="w-12 h-12 bg-navy-100 rounded-xl flex items-center justify-center flex-shrink-0 text-navy-600">
                                         <MapPin className="w-6 h-6" />
                                     </div>
-                                    <div>
-                                        <h3 className="text-lg font-bold text-gray-900 mb-1">مقرنا الرئيسي</h3>
-                                        <p className="text-gray-600">طريق الملك فهد، حي الصحافة</p>
-                                        <p className="text-gray-600">الرياض، المملكة العربية السعودية</p>
-                                    </div>
+                          
                                 </div>
                             </div>
                         </div>
 
-                        {/* Visual Map Placeholder / Image */}
-                        <div className="relative h-[400px] w-full bg-gray-200 rounded-3xl overflow-hidden shadow-lg group">
-                            {/* In a real app, embed Google Maps iframe here */}
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115934.34007873654!2d46.6111326462796!3d24.77426543666016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2z2KfZhNix2YrYp9aV!5e0!3m2!1sar!2ssa!4v1709650000000!5m2!1sar!2ssa"
-                                width="100%"
-                                height="100%"
-                                style={{ border: 0 }}
-                                allowFullScreen
-                                loading="lazy"
-                                referrerPolicy="no-referrer-when-downgrade"
-                                className="grayscale group-hover:grayscale-0 transition-all duration-500"
-                            ></iframe>
-
-                            <a
-                                href="https://maps.app.goo.gl/example"
-                                target="_blank"
-                                className="absolute bottom-6 left-6 bg-white text-gray-900 px-6 py-3 rounded-xl font-bold shadow-lg flex items-center gap-2 hover:bg-gray-50 transition-colors"
-                            >
-                                <ExternalLink className="w-4 h-4" />
-                                فتح في خرائط جوجل
-                            </a>
-                        </div>
+               
                     </div>
                 </div>
             </section>

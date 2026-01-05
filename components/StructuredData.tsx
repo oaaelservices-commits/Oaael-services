@@ -2,6 +2,20 @@
 
 import Script from 'next/script'
 
+interface Review {
+  author: string
+  datePublished?: string
+  reviewBody: string
+  reviewRating: number
+}
+
+interface AggregateRating {
+  ratingValue: number
+  reviewCount: number
+  bestRating?: number
+  worstRating?: number
+}
+
 interface StructuredDataProps {
   type?: 'website' | 'localBusiness' | 'service' | 'article'
   pageData?: {
@@ -12,16 +26,52 @@ interface StructuredDataProps {
     modifiedTime?: string
     author?: string
     category?: string
-    image?: string // Added image support
+    image?: string
   }
+  reviews?: Review[]
+  aggregateRating?: AggregateRating
 }
 
-export default function StructuredData({ type = 'website', pageData }: StructuredDataProps) {
+export default function StructuredData({ type = 'website', pageData, reviews, aggregateRating }: StructuredDataProps) {
   const baseUrl = 'https://elazzl.sa'
   const companyName = 'شركة عزل أسطح بالرياض'
   const companyPhone = '0551777962'
   const companyLogo = `${baseUrl}/logo.png`
   const companyDescription = 'شركة عزل أسطح بالرياض والخرج متخصصة في عزل الفوم والعزل الحراري والمائي. خبرة 15 سنة وضمان 10 سنوات. اتصل: 0551777962'
+
+  // Default Aggregate Rating (fallback if not provided specific)
+  const defaultAggregateRating = {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "285",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+
+  const currentAggregateRating = aggregateRating ? {
+    "@type": "AggregateRating",
+    "ratingValue": aggregateRating.ratingValue.toString(),
+    "reviewCount": aggregateRating.reviewCount.toString(),
+    "bestRating": (aggregateRating.bestRating || 5).toString(),
+    "worstRating": (aggregateRating.worstRating || 1).toString()
+  } : defaultAggregateRating
+
+  // Format Reviews for Schema
+  const reviewSchema = reviews?.map(review => ({
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": review.author
+    },
+    "datePublished": review.datePublished || new Date().toISOString().split('T')[0],
+    "reviewBody": review.reviewBody,
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": review.reviewRating.toString(),
+      "bestRating": "5",
+      "worstRating": "1"
+    }
+  }))
 
   // Organization/LocalBusiness Schema
   const organizationSchema = {
@@ -75,13 +125,7 @@ export default function StructuredData({ type = 'website', pageData }: Structure
       "opens": "07:00",
       "closes": "23:00"
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "285", // Updated based on site content
-      "bestRating": "5",
-      "worstRating": "1"
-    }
+    "aggregateRating": currentAggregateRating
   }
 
   // Website Schema
@@ -139,7 +183,9 @@ export default function StructuredData({ type = 'website', pageData }: Structure
           }
         }
       ]
-    }
+    },
+    "aggregateRating": currentAggregateRating,
+    "review": reviewSchema
   } : null
 
   // Article Schema

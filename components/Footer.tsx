@@ -101,10 +101,10 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3 text-sm">
               <li><Link href="/services/foam-insulation" className="text-gray-400 hover:text-brand-orange-500 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-white/20"></div>عزل فوم بالرياض</Link></li>
-              <li><Link href="/services/roof-insulation" className="text-gray-400 hover:text-brand-orange-500 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-white/20"></div>عزل أسطح بالرياض</Link></li>
+              <li><Link href="/services/roof-insulation" className="text-gray-400 hover:text-brand-orange-500 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-white/20"></div>عزل شينكو بالرياض</Link></li>
               <li><Link href="/services/waterproof-insulation" className="text-gray-400 hover:text-brand-orange-500 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-white/20"></div>عزل مائي بالرياض</Link></li>
               <li><Link href="/services/thermal-insulation" className="text-gray-400 hover:text-brand-orange-500 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-white/20"></div>عزل حراري بالرياض</Link></li>
-              <li><Link href="/services/leak-detection" className="text-gray-400 hover:text-brand-orange-500 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-white/20"></div>كشف تسربات المياه</Link></li>
+              <li><Link href="/services/leak-detection" className="text-gray-400 hover:text-brand-orange-500 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-white/20"></div>عزل أسطح بالرياض</Link></li>
             </ul>
           </div>
 
