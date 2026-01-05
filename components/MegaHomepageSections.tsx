@@ -81,7 +81,7 @@ export function NarrativeHero() {
                                 اتصل الآن: 0551777962
                             </Link>
                             <Link
-                                href="https://wa.me/0551777962"
+                                href="https://wa.me/966507067378"
                                 className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 transition-all shadow-lg"
                             >
                                 💬 واتساب مباشر
@@ -93,7 +93,7 @@ export function NarrativeHero() {
                     <div className="lg:col-span-5 relative">
                         <div className="relative h-[400px] lg:h-[550px] rounded-3xl overflow-hidden shadow-2xl">
                             <Image
-                                src="/images/roof12.webp"
+                                src="/services/serv1.jpeg"
                                 alt="عزل أسطح بالرياض - عزل فوم حراري ومائي"
                                 fill
                                 className="object-cover"
@@ -232,7 +232,7 @@ export function DeepExplanation() {
       (35-40 كجم/م³) تمنع انتقال الحرارة، بينما خاصية الإلتصاق التام تُغلق جميع الفتحات والشقوق.
       
       النتيجة: انخفاض درجة حرارة السطح الداخلي بـ 15-20 درجة، وتوفير يصل إلى 50% في فاتورة الكهرباء.`,
-            image: '/images/polyurethane-foam-insulation-application.webp',
+            image: '/services/serv2.jpeg',
             imageAlt: 'تطبيق عزل الفوم على سطح مبنى',
             highlights: [
                 { text: 'كثافة عالية 35-40 كجم/م³', icon: Shield },
@@ -250,7 +250,7 @@ export function DeepExplanation() {
       المعتمدة دولياً. يتم تطبيق العزل على طبقات متعددة مع اهتمام خاص بمناطق التقاطع والزوايا.
       
       العزل المائي لا يقتصر على الأسطح فقط، بل يشمل الحمامات، المطابخ، المسابح، وخزانات المياه.`,
-            image: '/images/best-practices-spray-foam-installation-on-roof.webp',
+            image: '/services/serv3.jpeg',
             imageAlt: 'أعمال العزل المائي',
             highlights: [
                 { text: 'مواد APP/SBS معتمدة', icon: Award },
@@ -649,7 +649,7 @@ export function UseCases() {
             solution: 'عزل فوم بسماكة 5 سم على كامل السطح',
             result: 'انخفاض الفاتورة إلى 1,400 ريال (توفير 44%)',
             duration: '3 أيام',
-            image: '/images/roof12.webp'
+            image: '/services/serv4.jpeg'
         },
         {
             title: 'عمارة سكنية - حي الياسمين',
@@ -659,7 +659,7 @@ export function UseCases() {
             solution: 'إصلاح شامل + عزل بيتوميني + فوم',
             result: 'توقف التسربات نهائياً مع ضمان 10 سنوات',
             duration: '6 أيام',
-            image: '/images/roof8.webp'
+            image: '/services/serv5.jpeg'
         },
         {
             title: 'مستودع تجاري - الخرج',
@@ -669,7 +669,7 @@ export function UseCases() {
             solution: 'ألواح ساندويتش بانل معزولة',
             result: 'انخفاض الحرارة الداخلية 18 درجة',
             duration: '10 أيام',
-            image: '/images/roof10.webp'
+            image: '/services/ser6.jpeg'
         }
     ]
 
@@ -1165,7 +1165,7 @@ export function ServiceDetailsTables() {
                                 <Phone className="w-5 h-5" />
                                 اتصل الآن: 0551777962
                             </a>
-                            <a href="https://wa.me/0551777962" className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 transition-all">
+                            <a href="https://wa.me/966507067378" className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 transition-all">
                                 💬 واتساب مباشر
                             </a>
                         </div>
@@ -1487,7 +1487,7 @@ export function SoftCTA() {
                             اتصل الآن: 0551777962
                         </Link>
                         <Link
-                            href="https://wa.me/0551777962"
+                            href="https://wa.me/966507067378"
                             className="bg-green-500 hover:bg-green-600 text-white px-10 py-5 rounded-2xl font-bold text-lg flex items-center justify-center gap-3 transition-all shadow-lg"
                         >
                             💬 راسلنا واتساب
@@ -1534,14 +1534,12 @@ export function VisualLongForm() {
 
                                 <div className="my-8 relative h-80 rounded-2xl overflow-hidden shadow-lg">
                                     <Image
-                                        src="/images/polyurethane-foam-insulation-application.webp"
+                                        src="/services/serv7.jpeg"
                                         alt="مقارنة استهلاك الطاقة"
                                         fill
                                         className="object-cover"
                                     />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-                                        <p className="text-white font-bold text-lg">دراسة تثبت توفير 40-50% من الطاقة في المباني المعزولة</p>
-                                    </div>
+
                                 </div>
 
                                 <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">حماية الهيكل الإنشائي للمبنى</h3>
@@ -1594,7 +1592,7 @@ export function VisualLongForm() {
                             {/* Image Card */}
                             <div className="relative h-64 rounded-3xl overflow-hidden shadow-lg group">
                                 <Image
-                                    src="/images/technician-applying-spray-foam-in-attic.webp"
+                                    src="/services/serv8.jpeg"
                                     alt="فريق العمل"
                                     fill
                                     className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -1666,12 +1664,12 @@ export function SEOTopicCluster() {
 // ============================================
 export function VisualProof() {
     const images = [
-        { src: '/images/spray-foam-roofing-01.webp', title: 'عزل فوم لفيلا سكنية', loc: 'حي الملقا' },
-        { src: '/images/roof.webp', title: 'عزل مائي للأسطح', loc: 'الدرعية' },
-        { src: '/images/attic-with-completed-spray-foam-insulation.webp', title: 'عزل هناجر ومستودعات', loc: 'الصناعية الثانية' },
-        { src: '/images/technician-applying-spray-foam-in-attic.webp', title: 'عزل أسطح مبلطة', loc: 'حي اليرموك' },
-        { src: '/images/closed-cell-spray-foam-on-house-garage-walls.webp', title: 'عزل الجدران والجراجات', loc: 'حي النخيل' },
-        { src: '/images/worker-installing-foam-insulation-in-crawl-space.webp', title: 'عزل المساحات الضيقة', loc: 'لبن' }
+        { src: '/services/serv7.jpeg', title: 'عزل فوم لفيلا سكنية', loc: 'حي الملقا' },
+        { src: '/services/serv8.jpeg', title: 'عزل مائي للأسطح', loc: 'الدرعية' },
+        { src: '/services/serv9.jpeg', title: 'عزل هناجر ومستودعات', loc: 'الصناعية الثانية' },
+        { src: '/services/serv10.jpeg', title: 'عزل أسطح مبلطة', loc: 'حي اليرموك' },
+        { src: '/services/serv11.jpeg', title: 'عزل الجدران والجراجات', loc: 'حي النخيل' },
+        { src: '/services/serv13.jpeg', title: 'عزل المساحات الضيقة', loc: 'لبن' }
     ]
 
     return (

@@ -98,7 +98,7 @@ export default function ShinkoInsulationPage() {
                                     اتصل: 0551777962
                                 </a>
                                 <a
-                                    href="https://wa.me/966551777962"
+                                    href="https://wa.me/966507067378"
                                     className="flex items-center justify-center gap-2 bg-green-500 text-white px-8 py-4 rounded-xl font-bold hover:bg-green-600 transition-all shadow-lg"
                                 >
                                     <MessageCircle className="w-5 h-5" />
@@ -119,10 +119,7 @@ export default function ShinkoInsulationPage() {
                                 </div>
 
                                 <div className="space-y-4">
-                                    <div className="flex justify-between items-center py-3 border-b border-gray-100">
-                                        <span className="text-gray-600">السعر يبدأ من</span>
-                                        <span className="font-bold text-brand-orange-500 text-xl">85 ريال/م²</span>
-                                    </div>
+
                                     <div className="flex justify-between items-center py-3 border-b border-gray-100">
                                         <span className="text-gray-600">الضمان</span>
                                         <span className="font-bold text-navy-500">15 سنة</span>
@@ -173,7 +170,7 @@ export default function ShinkoInsulationPage() {
                     "تتميز ألواح الشينكو بمتانتها العالية ومقاومتها للعوامل الجوية القاسية، مما يجعلها مثالية للمستودعات والمصانع والهناجر والمعارض التجارية. كما أنها سهلة التركيب وتوفر مظهراً جمالياً عصرياً مع أداء عزل استثنائي.",
                     "نحن في شركتنا نستخدم أجود أنواع ألواح الشينكو المستوردة والمحلية، مع فريق تركيب محترف يضمن تنفيذاً متقناً يدوم لسنوات طويلة. نقدم ضماناً شاملاً يصل إلى 15 سنة على جميع أعمالنا."
                 ]}
-                image="/images/spray-foam-roofing-01.webp"
+                image="/services/serv3.jpeg"
                 imageAlt="عزل شينكو بالرياض - تركيب ألواح الساندوتش بانل"
                 highlights={[
                     { icon: <Thermometer className="w-5 h-5" />, text: 'عزل حراري فائق' },
@@ -193,14 +190,14 @@ export default function ShinkoInsulationPage() {
                     {
                         title: "ساندوتش بانل بولي يوريثان (PU)",
                         description: "الخيار الأكثر شيوعاً ويتميز بأعلى معامل عزل حراري. مثالي للمستودعات التي تحتاج تبريد مستمر والغرف الباردة. خفيف الوزن وسهل التركيب مع عمر افتراضي طويل.",
-                        image: "/images/thermal-acoustic-foam-insulation-on-roof.webp",
+                        image: "/services/serv4.jpeg",
                         features: ["معامل عزل K=0.022", "سماكات 5-15 سم", "وزن خفيف 10-12 كجم/م²", "مقاوم للحريق"],
                         recommendedFor: "المستودعات المبردة والغرف الباردة"
                     },
                     {
                         title: "ساندوتش بانل صوف صخري (Rock Wool)",
                         description: "يتميز بمقاومة عالية للحريق ويُستخدم في المباني التي تتطلب معايير سلامة صارمة. يوفر عزلاً صوتياً ممتازاً بالإضافة للعزل الحراري.",
-                        image: "/images/exposed-spray-foam-insulation-in-roof-structure.webp",
+                        image: "/services/serv5.jpeg",
                         features: ["مقاوم للحريق 4 ساعات", "عزل صوتي ممتاز", "صديق للبيئة", "لا يمتص الرطوبة"],
                         recommendedFor: "المصانع ومحطات الوقود"
                     }
@@ -231,22 +228,22 @@ export default function ShinkoInsulationPage() {
                     {
                         title: "المعاينة والقياسات",
                         description: "يقوم فريقنا الهندسي بزيارة الموقع لأخذ القياسات الدقيقة وتحديد نوع الألواح المناسب وحساب الكميات المطلوبة مع تقديم عرض سعر تفصيلي.",
-                        image: "/images/discovery.webp"
+                        image: "/services/ser6.jpeg"
                     },
                     {
                         title: "تجهيز الهيكل المعدني",
                         description: "نقوم بتركيب الهيكل المعدني الحامل (الشاصي) بدقة عالية مع مراعاة ميول الصرف وتثبيت الدعامات بشكل محكم لضمان ثبات الألواح.",
-                        image: "/images/roof.webp"
+                        image: "/services/serv7.jpeg"
                     },
                     {
                         title: "تركيب ألواح الشينكو",
                         description: "يتم تركيب ألواح الساندوتش بانل بتداخل محكم مع استخدام مسامير ربط مجلفنة ذات جوانات مطاطية لمنع تسرب المياه والهواء.",
-                        image: "/images/best-practices-spray-foam-installation-on-roof.webp"
+                        image: "/services/serv8.jpeg"
                     },
                     {
                         title: "التشطيب والفحص",
                         description: "نقوم بتركيب الإكسسوارات والزوايا وتغطية الفواصل ثم إجراء فحص شامل للتأكد من جودة التركيب وإحكام العزل قبل التسليم.",
-                        image: "/images/roof12.webp"
+                        image: "/services/serv9.jpeg"
                     }
                 ]}
             />
@@ -285,8 +282,8 @@ export default function ShinkoInsulationPage() {
                     { label: 'انخفاض الحرارة', value: '18°C' },
                     { label: 'مدة التنفيذ', value: '12 يوم' },
                 ]}
-                beforeImage="/images/roof8.webp"
-                afterImage="/images/roof11.webp"
+                beforeImage="/services/serv10.jpeg"
+                afterImage="/services/serv11.jpeg"
             />
 
             {/* Gallery */}
@@ -294,10 +291,10 @@ export default function ShinkoInsulationPage() {
                 title="معرض مشاريع الشينكو"
                 subtitle="تركيب وعزل الهناجر والمستودعات"
                 images={[
-                    { src: '/images/roof8.webp', alt: 'تركيب شينكو', title: 'تركيب هناجر', location: 'الصناعية الثانية' },
-                    { src: '/images/roof11.webp', alt: 'ساندوتش بانل', title: 'مستودع تبريد', location: 'شمال الرياض' },
-                    { src: '/images/thermal-acoustic-foam-insulation-on-roof.webp', alt: 'عزل شينكو', title: 'عزل مصنع', location: 'الخرج' },
-                    { src: '/images/exposed-spray-foam-insulation-in-roof-structure.webp', alt: 'هيكل معدني', title: 'أسقف معدنية', location: 'حي السلي' },
+                    { src: '/services/serv13.jpeg', alt: 'تركيب شينكو', title: 'تركيب هناجر', location: 'الصناعية الثانية' },
+                    { src: '/services/serv1.jpeg', alt: 'ساندوتش بانل', title: 'مستودع تبريد', location: 'شمال الرياض' },
+                    { src: '/services/serv2.jpeg', alt: 'عزل شينكو', title: 'عزل مصنع', location: 'الخرج' },
+                    { src: '/services/serv3.jpeg', alt: 'هيكل معدني', title: 'أسقف معدنية', location: 'حي السلي' },
                 ]}
             />
 
@@ -530,7 +527,7 @@ export default function ShinkoInsulationPage() {
                 title="احصل على عرض سعر مجاني لمشروعك"
                 description="معاينة مجانية وتصميم هندسي وعرض سعر تفصيلي خلال 24 ساعة"
                 primaryButton={{ text: '📞 اتصل: 0551777962', href: 'tel:0551777962' }}
-                secondaryButton={{ text: 'واتساب', href: 'https://wa.me/966551777962' }}
+                secondaryButton={{ text: 'واتساب', href: 'https://wa.me/966507067378' }}
                 variant="orange"
             />
 

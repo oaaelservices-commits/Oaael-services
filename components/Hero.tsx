@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Phone, Shield, Droplets, Thermometer, Home, CheckCircle, Star, Clock, Award } from 'lucide-react'
 import Image from 'next/image'
+import { CustomerRatingBadge } from './CustomerRatingBadge'
 
 const Hero = () => {
   return (
@@ -22,6 +23,11 @@ const Hero = () => {
             <div className="flex items-center gap-4 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 w-fit">
               <Star className="w-5 h-5 text-brand-orange-400" />
               <span className="text-white">أفضل شركة عزل أسطح بالرياض</span>
+            </div>
+
+            {/* Customer Rating Badge */}
+            <div className="mt-4">
+              <CustomerRatingBadge variant="horizontal" rating={4.9} customerCount="2000+" />
             </div>
 
             {/* Main Heading */}
@@ -94,7 +100,7 @@ const Hero = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative h-[400px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/roof12.webp"
+                src="/services/serv1.jpeg"
                 alt="عزل أسطح بالرياض - عزل فوم وحراري ومائي"
                 fill
                 className="object-cover"

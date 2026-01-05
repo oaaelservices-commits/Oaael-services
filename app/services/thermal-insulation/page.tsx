@@ -52,7 +52,7 @@ export default function ThermalInsulationPage() {
                                     <Phone className="w-5 h-5" />
                                     اتصل: 0551777962
                                 </a>
-                                <a href="https://wa.me/966551777962" className="flex items-center justify-center gap-2 bg-green-500 text-white px-8 py-4 rounded-xl font-bold hover:bg-green-600 transition-all shadow-lg">
+                                <a href="https://wa.me/966507067378" className="flex items-center justify-center gap-2 bg-green-500 text-white px-8 py-4 rounded-xl font-bold hover:bg-green-600 transition-all shadow-lg">
                                     <MessageCircle className="w-5 h-5" />
                                     واتساب
                                 </a>
@@ -103,7 +103,7 @@ export default function ThermalInsulationPage() {
                     "العزل الحراري يخلق حاجزاً فعالاً يمنع انتقال هذه الحرارة، مما يحافظ على برودة المبنى ويوفر استهلاك الكهرباء بشكل كبير. تكلفة العزل تُسترد خلال 2-3 سنوات من التوفير في فواتير الكهرباء.",
                     "نستخدم أحدث تقنيات العزل الحراري مثل الفوم البولي يوريثان والألواح العازلة التي تضمن لك عزلاً مستداماً وفعالاً لسنوات طويلة."
                 ]}
-                image="/images/thermal-acoustic-foam-insulation-on-roof.webp"
+                image="/services/serv1.jpeg"
                 imageAlt="عزل حراري للأسطح بالرياض"
                 highlights={[
                     { icon: <Zap className="w-5 h-5" />, text: 'توفير 50% من الطاقة' },
@@ -150,7 +150,7 @@ export default function ThermalInsulationPage() {
                 title="جاهز لتوفير الكهرباء؟"
                 description="احصل على معاينة مجانية وتقرير حراري لسطح منزلك"
                 primaryButton={{ text: '📞 اتصل الآن', href: 'tel:0551777962' }}
-                secondaryButton={{ text: 'واتساب', href: 'https://wa.me/966551777962' }}
+                secondaryButton={{ text: 'واتساب', href: 'https://wa.me/966507067378' }}
             />
 
             {/* Related Services */}

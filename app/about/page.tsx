@@ -77,7 +77,7 @@ export default function AboutPage() {
                             <div className="space-y-4">
                                 <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
                                     <Image
-                                        src="/images/technician-spraying-foam-in-protective-gear.webp"
+                                        src="/services/serv9.jpeg"
                                         alt="أعمال عزل الأسطح بالفوم في الرياض"
                                         fill
                                         className="object-cover"
@@ -97,7 +97,7 @@ export default function AboutPage() {
                                 </div>
                                 <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
                                     <Image
-                                        src="/images/worker-spraying-foam-insulation-on-ceiling.webp"
+                                        src="/services/serv10.jpeg"
                                         alt="عزل خزانات المياه بالرياض"
                                         fill
                                         className="object-cover"
@@ -272,7 +272,7 @@ export default function AboutPage() {
                                 <Phone className="w-5 h-5" />
                                 اتصل الآن: 0551777962
                             </a>
-                            <a href="https://wa.me/0551777962" className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 transition-all">
+                            <a href="https://wa.me/966507067378" className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 transition-all">
                                 💬 واتساب مباشر
                             </a>
                         </div>

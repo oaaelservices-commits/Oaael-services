@@ -26,7 +26,7 @@ export default function ContactPage() {
             title: 'راسلنا واتساب',
             description: 'للمحادثات السريعة وإرسال الموقع',
             action: 'محادثة مباشرة',
-            href: 'https://wa.me/966551777962',
+            href: 'https://wa.me/966507067378',
             color: 'bg-green-500',
             textColor: 'text-green-500',
             btnColor: 'bg-green-500 hover:bg-green-600'

@@ -400,7 +400,7 @@ export default function FAQPage() {
                                 اتصل الآن: 0551777962
                             </a>
                             <a
-                                href="https://wa.me/0551777962"
+                                href="https://wa.me/966507067378"
                                 className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 transition-all shadow-lg"
                             >
                                 💬 واتساب مباشر

@@ -9,42 +9,42 @@ const galleryItems = [
     id: 1,
     title: 'عزل سطح فيلا بالفوم',
     location: 'حي الملقا، الرياض',
-    image: '/images/closed-cell-spray-foam-on-house-garage-walls.webp',
+    image: '/services/serv1.jpeg',
     category: 'عزل فوم'
   },
   {
     id: 2,
     title: 'عزل مائي لسطح عمارة',
     location: 'حي الياسمين، الرياض',
-    image: '/images/roof8.webp',
+    image: '/services/serv2.jpeg',
     category: 'عزل مائي'
   },
   {
     id: 3,
     title: 'عزل خزان مياه',
     location: 'حي النرجس، الرياض',
-    image: '/images/roof12.webp',
+    image: '/services/serv3.jpeg',
     category: 'عزل خزانات'
   },
   {
     id: 4,
     title: 'عزل حراري لمستودع',
     location: 'المنطقة الصناعية، الرياض',
-    image: '/images/attic-with-completed-spray-foam-insulation.webp',
+    image: '/services/serv4.jpeg',
     category: 'عزل حراري'
   },
   {
     id: 5,
     title: 'كشف تسربات مياه',
     location: 'حي العليا، الرياض',
-    image: '/images/discovery.webp',
+    image: '/services/serv5.jpeg',
     category: 'كشف تسربات'
   },
   {
     id: 6,
     title: 'عزل سطح مسجد',
     location: 'حي الروضة، الرياض',
-    image: '/images/roof2.webp',
+    image: '/services/ser6.jpeg',
     category: 'عزل أسطح'
   },
 ]

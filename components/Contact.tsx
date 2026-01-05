@@ -46,7 +46,7 @@ const Contact = () => {
             <h3 className="text-xl font-bold text-center mb-4">تواصل واتساب</h3>
             <div className="text-center">
               <a
-                href="https://wa.me/966551777962"
+                href="https://wa.me/966507067378"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-green-500 hover:bg-green-600 transition-colors"
@@ -98,7 +98,7 @@ const Contact = () => {
               اتصل الآن: 0551777962
             </a>
             <a
-              href="https://wa.me/966551777962"
+              href="https://wa.me/966507067378"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-green-500 text-white px-8 py-4 rounded-xl font-bold hover:bg-green-600 transition-colors shadow-lg"

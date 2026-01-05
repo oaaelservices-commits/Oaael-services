@@ -9,7 +9,7 @@ export const seoConfig = {
     url: 'https://elazzl.sa/',
     domain: 'insulation-riyadh.com',
     phone: '0551777962',
-    whatsapp: '966551777962',
+    whatsapp: '966507067378',
     email: 'info@insulation-riyadh.com',
     address: 'الرياض، المملكة العربية السعودية',
     city: 'الرياض',
@@ -153,7 +153,7 @@ export const seoConfig = {
       alternateName: ['عزل فوم الرياض', 'شركة العزل المتقدم'],
       url: 'https://elazzl.sa/',
       logo: 'https://elazzl.sa//logo.png',
-      telephone: '+966551777962',
+      telephone: '+966507067378',
       email: 'info@insulation-riyadh.com',
       address: {
         '@type': 'PostalAddress',

@@ -174,7 +174,7 @@ export default function ServicesPage() {
               اتصل الآن: 0551777962
             </a>
             <a
-              href="https://wa.me/966551777962"
+              href="https://wa.me/966507067378"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-green-600 transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center gap-2 shadow-lg"
@@ -406,7 +406,7 @@ export default function ServicesPage() {
               اتصل: 0551777962
             </a>
             <a
-              href="https://wa.me/966551777962"
+              href="https://wa.me/966507067378"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-green-600 transition-all inline-flex items-center justify-center gap-2 shadow-lg"
