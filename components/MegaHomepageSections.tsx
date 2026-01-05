@@ -103,22 +103,9 @@ export function NarrativeHero() {
                             <div className="absolute inset-0 bg-gradient-to-t from-navy-800/80 via-transparent to-transparent" />
                         </div>
 
-                        {/* Floating Cards */}
-                        <div className="absolute -bottom-6 -left-6 bg-white p-5 rounded-2xl shadow-xl">
-                            <div className="flex items-center gap-3">
-                                <div className="bg-green-100 p-3 rounded-xl">
-                                    <CheckCircle className="w-6 h-6 text-green-600" />
-                                </div>
-                                <div>
-                                    <div className="font-bold text-gray-900">ضمان 10 سنوات</div>
-                                    <div className="text-gray-500 text-sm">مكتوب وموثق</div>
-                                </div>
-                            </div>
-                        </div>
+                  
 
-                        <div className="absolute top-6 -right-6 bg-brand-orange-500 text-white px-5 py-3 rounded-xl shadow-lg font-bold">
-                            ✓ معاينة مجانية
-                        </div>
+                 
                     </div>
                 </div>
             </div>
