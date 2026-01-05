@@ -84,7 +84,7 @@ const services = [
     icon: Search,
     color: 'text-green-500',
     bgColor: 'bg-green-50',
-    slug: 'leak-detection',
+    slug: 'roof-insulation',
     areas: ['الأسطح', 'الحمامات', 'المطابخ', 'خطوط المياه', 'الخزانات'],
     features: ['كشف بدون تكسير', 'أجهزة إلكترونية متطورة', 'تقرير فني مفصل', 'حلول فورية', 'أسعار مناسبة'],
     price: 'يبدأ من 35 ريال',

@@ -535,7 +535,7 @@ export default function FoamInsulationKharjPage() {
                     {
                         title: 'عزل أسطح بالخرج',
                         description: 'حماية شاملة للأسطح من الحرارة والأمطار',
-                        href: '/services/leak-detection',
+                        href: '/services/roof-insulation',
                         icon: <Home className="w-6 h-6" />
                     },
                     {

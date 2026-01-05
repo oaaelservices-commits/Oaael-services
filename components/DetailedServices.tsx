@@ -46,7 +46,7 @@ const services = [
     icon: Search,
     color: 'text-green-500',
     bgColor: 'bg-green-50',
-    slug: 'leak-detection',
+    slug: 'roof-insulation',
     features: ['كشف بدون تكسير', 'أجهزة إلكترونية متطورة', 'تقرير فني مفصل']
   },
   {

@@ -476,7 +476,7 @@ export default function RoofInsulationRiyadhPage() {
                     {
                         title: 'كشف تسربات المياه',
                         description: 'فحص إلكتروني دقيق بدون تكسير',
-                        href: '/services/leak-detection',
+                        href: '/services/roof-insulation',
                         icon: <Building className="w-6 h-6" />
                     },
                     {
