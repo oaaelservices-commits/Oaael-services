@@ -470,7 +470,7 @@ export default function RoofInsulationRiyadhPage() {
             {/* ========================================
           Related Services
       ======================================== */}
-            <RelatedServices
+            {/* <RelatedServices
                 title="خدمات أخرى نقدمها في الرياض"
                 services={[
                     {
@@ -480,19 +480,19 @@ export default function RoofInsulationRiyadhPage() {
                         icon: <Building className="w-6 h-6" />
                     },
                     {
-                        title: 'عزل خزانات المياه',
-                        description: 'تنظيف وتعقيم وعزل الخزانات',
+                        title: 'شركة عزل أسطح بالرياض',
+                        description: 'خدماتنا تغطي الرياض',
                         href: '/services/tank-insulation',
                         icon: <Droplets className="w-6 h-6" />
                     },
                     {
-                        title: 'عزل فوم بالخرج',
-                        description: 'خدماتنا تغطي الخرج والدلم',
+                        title: 'عزل فوم بالرياض',
+                        description: 'خدماتنا تغطي الرياض',
                         href: '/services/foam-insulation',
                         icon: <Home className="w-6 h-6" />
                     },
                 ]}
-            />
+            /> */}
 
             <Footer />
         </>
