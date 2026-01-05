@@ -313,7 +313,7 @@ export function PricingCards({ title, subtitle, tiers }: PricingCardsProps) {
                         <div
                             key={idx}
                             className={`relative rounded-3xl p-8 transition-all ${tier.highlighted
-                                ? 'bg-navy-500 text-white shadow-2xl scale-105'
+                                ? 'bg-navy-500 text-white shadow-2xl lg:scale-105'
                                 : 'bg-gray-50 border border-gray-200 hover:shadow-xl'
                                 }`}
                         >

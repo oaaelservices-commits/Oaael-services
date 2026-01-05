@@ -50,7 +50,7 @@ export function IntroBlock({ title, subtitle, paragraphs, image, imageAlt, highl
 
                     {/* Image */}
                     {image && (
-                        <div className="order-1 lg:order-2 relative">
+                        <div className="order-1 lg:order-2 relative overflow-hidden">
                             <div className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl">
                                 <Image
                                     src={image}
@@ -59,9 +59,9 @@ export function IntroBlock({ title, subtitle, paragraphs, image, imageAlt, highl
                                     className="object-cover"
                                 />
                             </div>
-                            {/* Decorative elements */}
-                            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-brand-orange-500/20 rounded-full blur-2xl"></div>
-                            <div className="absolute -top-6 -left-6 w-24 h-24 bg-navy-500/20 rounded-full blur-2xl"></div>
+                            {/* Decorative elements - contained to prevent overflow */}
+                            <div className="absolute bottom-0 right-0 w-32 h-32 bg-brand-orange-500/20 rounded-full blur-2xl translate-x-6 translate-y-6"></div>
+                            <div className="absolute top-0 left-0 w-24 h-24 bg-navy-500/20 rounded-full blur-2xl -translate-x-6 -translate-y-6"></div>
                         </div>
                     )}
                 </div>
@@ -163,14 +163,14 @@ export function WorkStepsTimeline({ title, subtitle, steps }: WorkStepsProps) {
                 </div>
 
                 {/* Steps Grid */}
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 overflow-visible">
                     {steps.map((step, idx) => (
                         <div
                             key={idx}
-                            className="group relative bg-white/5 backdrop-blur p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300"
+                            className="group relative bg-white/5 backdrop-blur p-8 pt-10 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300"
                         >
                             {/* Step Number */}
-                            <div className="absolute -top-4 -right-4 w-12 h-12 bg-brand-orange-500 rounded-full flex items-center justify-center text-xl font-bold shadow-lg group-hover:scale-110 transition-transform">
+                            <div className="absolute top-0 right-4 -translate-y-1/2 w-12 h-12 bg-brand-orange-500 rounded-full flex items-center justify-center text-xl font-bold shadow-lg group-hover:scale-110 transition-transform">
                                 {step.number}
                             </div>
 
@@ -231,8 +231,8 @@ export function ComparisonTable({ title, subtitle, headers, rows, recommendedInd
                                     <th
                                         key={idx}
                                         className={`p-4 text-center font-bold ${idx === recommendedIndex
-                                                ? 'bg-brand-orange-500 text-white'
-                                                : 'bg-gray-50 text-gray-700'
+                                            ? 'bg-brand-orange-500 text-white'
+                                            : 'bg-gray-50 text-gray-700'
                                             } ${idx === headers.length - 1 ? 'rounded-tl-2xl' : ''}`}
                                     >
                                         {header}
@@ -321,8 +321,8 @@ export function ExtendedFAQ({ title, subtitle, faqs }: ExtendedFAQProps) {
                                     {faq.question}
                                 </span>
                                 <span className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-all ${openIndex === index
-                                        ? 'bg-brand-orange-500 text-white rotate-180'
-                                        : 'bg-gray-100 text-gray-500'
+                                    ? 'bg-brand-orange-500 text-white rotate-180'
+                                    : 'bg-gray-100 text-gray-500'
                                     }`}>
                                     <ChevronDown className="h-5 w-5" />
                                 </span>
@@ -515,8 +515,8 @@ export function CTABanner({ title, description, primaryButton, secondaryButton, 
                     <a
                         href={primaryButton.href}
                         className={`px-8 py-4 rounded-xl font-bold text-lg transition-all transform hover:scale-105 shadow-lg ${isOrange
-                                ? 'bg-white text-brand-orange-500 hover:bg-gray-100'
-                                : 'bg-brand-orange-500 text-white hover:bg-brand-orange-600'
+                            ? 'bg-white text-brand-orange-500 hover:bg-gray-100'
+                            : 'bg-brand-orange-500 text-white hover:bg-brand-orange-600'
                             }`}
                     >
                         {primaryButton.text}
