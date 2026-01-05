@@ -1,0 +1,28 @@
+# Global rules
+User-agent: *
+Allow: /
+Allow: /blog
+Allow: /services
+Allow: /about
+Allow: /gallery
+Allow: /contact
+
+# Prevent crawling of search results and admin areas
+Disallow: /search
+Disallow: /admin
+Disallow: /private
+Disallow: /*?*
+
+# Media files
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.avif$
+
+# Crawl delay to prevent server overload
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://exzofor.com/sitemap.xml
