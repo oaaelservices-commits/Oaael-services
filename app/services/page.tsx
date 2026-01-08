@@ -97,7 +97,7 @@ const services = [
     icon: Container,
     color: 'text-cyan-500',
     bgColor: 'bg-cyan-50',
-    slug: 'tank-insulation',
+    slug: 'kharg-insulation',
     areas: ['الخزانات الأرضية', 'الخزانات العلوية', 'خزانات الفيلات', 'خزانات العمارات'],
     features: ['مواد آمنة صحياً', 'حماية من التآكل', 'ضمان 5 سنوات', 'تعقيم شامل', 'شهادة صحية'],
     price: 'يبدأ من 35 ريال/م²',

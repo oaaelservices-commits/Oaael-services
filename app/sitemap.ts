@@ -52,7 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/services/tank-insulation`,
+      url: `${baseUrl}/services/kharg-insulation`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: 0.8,

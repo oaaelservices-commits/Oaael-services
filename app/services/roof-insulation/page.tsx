@@ -509,7 +509,7 @@ export default function RoofInsulationRiyadhPage() {
                     {
                         title: 'شركة عزل أسطح بالرياض',
                         description: 'خدماتنا تغطي الرياض',
-                        href: '/services/tank-insulation',
+                        href: '/services/kharg-insulation',
                         icon: <Droplets className="w-6 h-6" />
                     },
                     {

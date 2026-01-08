@@ -55,7 +55,7 @@ const services = [
     icon: Container,
     color: 'text-cyan-500',
     bgColor: 'bg-cyan-50',
-    slug: 'tank-insulation',
+    slug: 'kharg-insulation',
     features: ['مواد آمنة صحياً', 'حماية من التآكل', 'ضمان 5 سنوات']
   },
 ]

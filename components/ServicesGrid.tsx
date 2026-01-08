@@ -14,7 +14,7 @@ const services = [
         title: 'الخزن',
         subtitle: 'خدمة عزل فوم بيوريثان',
         icon: Warehouse,
-        href: '/services/tank-insulation',
+        href: '/services/kharg-insulation',
         available: true,
         availability: 'متاح'
     },
