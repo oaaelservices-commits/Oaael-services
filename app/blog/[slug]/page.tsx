@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 
   return {
-    title: `${post.title} | شركة اكزو موف`,
+    title: `${post.title} | مدونة العزل | شركة عزل أسطح بالرياض | 0551777962`,
     description: post.excerpt,
     keywords: [
       'نقل عفش جدة', 'شركة نقل اثاث', 'نقل اثاث آمن', 'تغليف اثاث',

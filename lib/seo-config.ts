@@ -238,4 +238,48 @@ export function getCombinedKeywords(...additionalKeywords: string[]): string[] {
   ]
 }
 
+// دالة لتوليد عناوين SEO محسّنة لصفحات الخدمات
+export function getServiceSeoTitle(
+  serviceName: string,
+  features?: string[]
+): string {
+  const phone = seoConfig.website.phone
+  const warranty = `ضمان ${seoConfig.website.warrantyYears} سنوات`
+
+  if (features && features.length > 0) {
+    return `${serviceName} | شركة عزل أسطح بالرياض | ${features.join(' | ')} | ${phone}`
+  }
+
+  return `${serviceName} | شركة عزل أسطح بالرياض | ${warranty} | ${phone}`
+}
+
+// دالة لتوليد عناوين SEO محسّنة لصفحات المدونات
+export function getBlogPostSeoTitle(
+  postTitle: string,
+  category?: string
+): string {
+  const phone = seoConfig.website.phone
+
+  if (category) {
+    return `${postTitle} | ${category} | مدونة شركة عزل أسطح بالرياض | ${phone}`
+  }
+
+  return `${postTitle} | مدونة العزل | شركة عزل أسطح بالرياض | ${phone}`
+}
+
+// دالة لتوليد عناوين SEO محسّنة للصفحات الثابتة
+export function getPageSeoTitle(
+  pageName: string,
+  highlights?: string[]
+): string {
+  const phone = seoConfig.website.phone
+  const experience = `خبرة ${seoConfig.website.yearsExperience} سنة`
+
+  if (highlights && highlights.length > 0) {
+    return `${pageName} | شركة عزل أسطح بالرياض | ${highlights.join(' | ')} | ${phone}`
+  }
+
+  return `${pageName} | شركة عزل أسطح بالرياض | ${experience} | ${phone}`
+}
+
 export default seoConfig
