@@ -384,7 +384,7 @@ export default function WaterproofInsulationPage() {
                 services={[
                     { title: 'عزل فوم بالرياض', description: 'عزل حراري ومائي في طبقة واحدة', href: '/services/foam-insulation', icon: <Shield className="w-6 h-6" /> },
                     { title: '  عزل اسطح بالرياض', description: 'عزل حراري ومائي في طبقة واحدة', href: '/services/roof-insulation', icon: <Droplets className="w-6 h-6" /> },
-                    { title: 'عزل خزانات المياه', description: 'عزل إيبوكسي آمن صحياً', href: '/services/kharg-insulation', icon: <Home className="w-6 h-6" /> },
+                    { title: 'عزل فوم بالخرج', description: 'عزل فوم بولي يوريثان بالخرج', href: '/services/kharg-insulation', icon: <Home className="w-6 h-6" /> },
                 ]}
             />
 

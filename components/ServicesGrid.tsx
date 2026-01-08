@@ -11,8 +11,8 @@ const services = [
         availability: 'متاح 24/7'
     },
     {
-        title: 'الخزن',
-        subtitle: 'خدمة عزل فوم بيوريثان',
+        title: 'الخرج',
+        subtitle: 'عزل فوم بولي يوريثان',
         icon: Warehouse,
         href: '/services/kharg-insulation',
         available: true,

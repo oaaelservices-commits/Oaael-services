@@ -39,9 +39,9 @@ export default function FoamInsulationKharjPage() {
             <StructuredData
                 type="service"
                 pageData={{
-                    title: 'شركة عزل خزانات بالرياض | عزل إيبوكسي | ضمان 10 سنوات',
+                    title: 'شركة عزل فوم بالخرج | عزل بولي يوريثان | ضمان 10 سنوات',
                     description: 'شركة عزل فوم بالخرج متخصصة في عزل الفوم البولي يوريثان ✅ عزل حراري ومائي ✅ ضمان 10 سنوات ✅ توفير 50% من الكهرباء',
-                    url: 'https://elazzl.sa/services/tank-insulation'
+                    url: 'https://elazzl.sa/services/kharg-insulation'
                 }}
                 aggregateRating={{
                     ratingValue: 4.9,

@@ -102,7 +102,7 @@ export default function AboutPage() {
                                 <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
                                     <Image
                                         src="/services/serv10.jpeg"
-                                        alt="عزل خزانات المياه بالرياض"
+                                        alt="عزل فوم بالخرج"
                                         fill
                                         className="object-cover"
                                     />
