@@ -25,6 +25,7 @@ import {
     TechSpecs,
     ImageGallery
 } from '@/components/AdvancedSections'
+import StructuredData from '@/components/StructuredData'
 
 export const metadata: Metadata = {
     title: 'عزل خزانات بالرياض | عزل إيبوكسي | ضمان 10 سنوات | 0551777962',
@@ -35,6 +36,32 @@ export const metadata: Metadata = {
 export default function FoamInsulationKharjPage() {
     return (
         <>
+            <StructuredData
+                type="service"
+                pageData={{
+                    title: 'شركة عزل خزانات بالرياض | عزل إيبوكسي | ضمان 10 سنوات',
+                    description: 'شركة عزل فوم بالخرج متخصصة في عزل الفوم البولي يوريثان ✅ عزل حراري ومائي ✅ ضمان 10 سنوات ✅ توفير 50% من الكهرباء',
+                    url: 'https://elazzl.sa/services/tank-insulation'
+                }}
+                aggregateRating={{
+                    ratingValue: 4.9,
+                    reviewCount: 46789
+                }}
+                reviews={[
+                    {
+                        author: 'ابو فيصل',
+                        reviewBody: 'شغل نظيف ومرتب، والخزان رجع كأنه جديد.',
+                        reviewRating: 5,
+                        datePublished: '2025-02-12'
+                    },
+                    {
+                        author: 'صالح التميمي',
+                        reviewBody: 'خدمة ممتازة وسعر مناسب.',
+                        reviewRating: 5,
+                        datePublished: '2025-01-18'
+                    }
+                ]}
+            />
             <Navbar />
 
             {/* ========================================

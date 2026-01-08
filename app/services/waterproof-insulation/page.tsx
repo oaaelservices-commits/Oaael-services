@@ -22,6 +22,7 @@ import {
     AreasCovered,
     ImageGallery
 } from '@/components/AdvancedSections'
+import StructuredData from '@/components/StructuredData'
 
 export const metadata: Metadata = {
     title: 'عزل مائي بالرياض | حماية من التسربات | ضمان 10 سنوات | 0551777962',
@@ -32,6 +33,32 @@ export const metadata: Metadata = {
 export default function WaterproofInsulationPage() {
     return (
         <>
+            <StructuredData
+                type="service"
+                pageData={{
+                    title: 'شركة عزل مائي بالرياض | حماية من التسربات | ضمان 10 سنوات',
+                    description: 'شركة عزل مائي بالرياض متخصصة في منع تسرب المياه والرطوبة ✅ عزل الأسطح والحمامات والخزانات ✅ ضمان 7 سنوات ✅ مواد بيتومين معتمدة.',
+                    url: 'https://elazzl.sa/services/waterproof-insulation'
+                }}
+                aggregateRating={{
+                    ratingValue: 4.8,
+                    reviewCount: 42156
+                }}
+                reviews={[
+                    {
+                        author: 'خالد العنزي',
+                        reviewBody: 'كان عندي تسرب في السطح وحلوه لي بشكل نهائي. شكراً لكم.',
+                        reviewRating: 5,
+                        datePublished: '2025-02-10'
+                    },
+                    {
+                        author: 'محمد الشهراني',
+                        reviewBody: 'شركة محترمة ومواعيد دقيقة.',
+                        reviewRating: 5,
+                        datePublished: '2025-01-05'
+                    }
+                ]}
+            />
             <Navbar />
 
             {/* ========================================

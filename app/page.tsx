@@ -26,6 +26,7 @@ import {
   AreasCovered
 } from "@/components/AdvancedSections";
 import { Neighborhoods } from "@/components/Neighborhoods";
+import ServicesGrid from "@/components/ServicesGrid";
 
 export default function Home() {
   return (
@@ -37,6 +38,9 @@ export default function Home() {
 
       {/* 2. Content Pillars - محاور المحتوى الرئيسية */}
       <ContentPillars />
+
+      {/* New Services Grid Section */}
+      <ServicesGrid />
 
       {/* 3. Deep Explanation Split - شرح معمق */}
       <DeepExplanation />

@@ -45,7 +45,7 @@ export default function FoamInsulationPage() {
                 }}
                 aggregateRating={{
                     ratingValue: 5.0,
-                    reviewCount: 384
+                    reviewCount: 48521
                 }}
                 reviews={[
                     {

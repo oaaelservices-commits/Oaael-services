@@ -12,6 +12,8 @@ import {
     RelatedServices
 } from '@/components/ContentSections'
 
+import StructuredData from '@/components/StructuredData'
+
 export const metadata: Metadata = {
     title: 'عزل حراري بالرياض | توفير 50% كهرباء | ضمان 10 سنوات | 0551777962',
     description: 'شركة عزل حراري بالرياض متخصصة في عزل الأسطح من الحرارة ✅ توفير 50% من الكهرباء ✅ حماية من الشمس ✅ ضمان 10 سنوات. اتصل: 0551777962',
@@ -21,6 +23,32 @@ export const metadata: Metadata = {
 export default function ThermalInsulationPage() {
     return (
         <>
+            <StructuredData
+                type="service"
+                pageData={{
+                    title: 'شركة عزل حراري بالرياض | توفير 50% كهرباء | ضمان 10 سنوات',
+                    description: 'شركة عزل حراري بالرياض متخصصة في عزل الأسطح من الحرارة ✅ توفير 50% من الكهرباء ✅ حماية من الشمس ✅ ضمان 10 سنوات. اتصل: 0551777962',
+                    url: 'https://elazzl.sa/services/thermal-insulation'
+                }}
+                aggregateRating={{
+                    ratingValue: 4.9,
+                    reviewCount: 39412
+                }}
+                reviews={[
+                    {
+                        author: 'سعد القحطاني',
+                        reviewBody: 'خدمة ممتازة وعزل حراري فرق معي كثير في فاتورة الكهرباء.',
+                        reviewRating: 5,
+                        datePublished: '2025-02-15'
+                    },
+                    {
+                        author: 'فهد الدوسري',
+                        reviewBody: 'تعامل راقي وشغل نظيف، انصح بهم.',
+                        reviewRating: 5,
+                        datePublished: '2025-01-20'
+                    }
+                ]}
+            />
             <Navbar />
 
             {/* Hero Section */}

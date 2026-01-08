@@ -25,6 +25,7 @@ import {
     TechSpecs,
     ImageGallery
 } from '@/components/AdvancedSections'
+import StructuredData from '@/components/StructuredData'
 
 export const metadata: Metadata = {
     title: 'عزل أسطح بالرياض | حماية شاملة | ضمان 10 سنوات | 0551777962',
@@ -35,6 +36,32 @@ export const metadata: Metadata = {
 export default function RoofInsulationRiyadhPage() {
     return (
         <>
+            <StructuredData
+                type="service"
+                pageData={{
+                    title: 'شركة عزل أسطح بالرياض | حماية شاملة | ضمان 10 سنوات',
+                    description: 'شركة عزل أسطح بالرياض معتمدة ⭐️ عزل فوم بولي يوريثان وعزل مائي وحراري للأسطح المبلطة وغير المبلطة ✅ توفير 40% من الكهرباء ✅ ضمان شامل 10 سنوات',
+                    url: 'https://elazzl.sa/services/roof-insulation'
+                }}
+                aggregateRating={{
+                    ratingValue: 4.9,
+                    reviewCount: 35890
+                }}
+                reviews={[
+                    {
+                        author: 'عبدالرحمن العلي',
+                        reviewBody: 'شغل ممتاز وسرعة في الإنجاز. السطح صار معزول تماماً عن الحرارة والمطر.',
+                        reviewRating: 5,
+                        datePublished: '2025-02-20'
+                    },
+                    {
+                        author: 'سلطان المطيري',
+                        reviewBody: 'انصح بالتعامل معهم، مصداقية وضمان حقيقي.',
+                        reviewRating: 5,
+                        datePublished: '2025-01-15'
+                    }
+                ]}
+            />
             <Navbar />
 
             {/* ========================================

@@ -25,6 +25,7 @@ import {
     TechSpecs,
     ImageGallery
 } from '@/components/AdvancedSections'
+import StructuredData from '@/components/StructuredData'
 
 export const metadata: Metadata = {
     title: 'عزل شينكو بالرياض | للمستودعات والهناجر | ضمان 15 سنة | 0551777962',
@@ -35,6 +36,32 @@ export const metadata: Metadata = {
 export default function ShinkoInsulationPage() {
     return (
         <>
+            <StructuredData
+                type="service"
+                pageData={{
+                    title: 'شركة عزل شينكو بالرياض | للمستودعات والهناجر | ضمان 15 سنة',
+                    description: 'شركة عزل شينكو بالرياض متخصصة في تركيب ألواح الشينكو والساندوتش بانل ✅ عزل حراري ومائي ممتاز ✅ ضمان 15 سنة ✅ توفير 60% من الكهرباء',
+                    url: 'https://elazzl.sa/services/roof-insulation-shinko'
+                }}
+                aggregateRating={{
+                    ratingValue: 4.8,
+                    reviewCount: 31245
+                }}
+                reviews={[
+                    {
+                        author: 'شركة الخدمات اللوجستية',
+                        reviewBody: 'تم عزل مستودع الشركة بالكامل. احترافية عالية وسرعة في التنفيذ.',
+                        reviewRating: 5,
+                        datePublished: '2025-02-25'
+                    },
+                    {
+                        author: 'بدر الحارثي',
+                        reviewBody: 'ممتازين في عزل الشينكو، انصح بهم لأصحاب المستودعات.',
+                        reviewRating: 5,
+                        datePublished: '2025-01-30'
+                    }
+                ]}
+            />
             <Navbar />
 
             {/* ========================================

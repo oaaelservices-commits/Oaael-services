@@ -21,7 +21,7 @@ export default function robots(): MetadataRoute.Robots {
         crawlDelay: 2,
       },
     ],
-    sitemap: 'https://exzofor.com/sitemap.xml',
-    host: 'https://exzofor.com',
+    sitemap: 'https://elazzl.sa/sitemap.xml',
+    host: 'https://elazzl.sa',
   }
 }
