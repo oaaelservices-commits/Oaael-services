@@ -77,6 +77,7 @@ const Navbar = () => {
                 <Link href="/about" className="text-gray-700 hover:text-navy-500 transition-colors px-3 py-2 text-sm font-medium">من نحن</Link>
                 <Link href="/blog" className="text-gray-700 hover:text-navy-500 transition-colors px-3 py-2 text-sm font-medium">المدونة</Link>
                 <Link href="/faq" className="text-gray-700 hover:text-navy-500 transition-colors px-3 py-2 text-sm font-medium">الأسئلة الشائعة</Link>
+                <Link href="/privacy-policy" className="text-gray-700 hover:text-navy-500 transition-colors px-3 py-2 text-sm font-medium">سياسة الخصوصية</Link>
                 <Link
                   href="tel:0551777962"
                   className="flex items-center gap-2 bg-brand-orange-500 text-white hover:bg-brand-orange-600 transition-colors px-5 py-2.5 rounded-xl text-sm font-bold shadow-lg shadow-brand-orange-500/30"
@@ -163,6 +164,13 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
             >
               الأسئلة الشائعة
+            </Link>
+            <Link
+              href="/privacy-policy"
+              className="block text-gray-700 hover:text-navy-500 hover:bg-gray-50 transition-colors px-4 py-3 text-base font-medium rounded-lg"
+              onClick={() => setIsOpen(false)}
+            >
+              سياسة الخصوصية
             </Link>
             <div className="pt-2 px-2">
               <Link
