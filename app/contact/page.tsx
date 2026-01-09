@@ -31,16 +31,7 @@ export default function ContactPage() {
             textColor: 'text-green-500',
             btnColor: 'bg-green-500 hover:bg-green-600'
         },
-        {
-            icon: <Mail className="w-8 h-8" />,
-            title: 'البريد الإلكتروني',
-            description: 'للطلبات الرسمية والمشاريع الكبرى',
 
-            href: 'mailto:info@exzo.com',
-            color: 'bg-blue-500',
-            textColor: 'text-blue-500',
-            btnColor: 'bg-blue-500 hover:bg-blue-600'
-        }
     ]
 
     return (
@@ -103,21 +94,6 @@ export default function ContactPage() {
                                 </p>
                             </div>
 
-                            <div className="space-y-6">
-                                <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-2xl">
-                                    <div className="w-12 h-12 bg-navy-100 rounded-xl flex items-center justify-center flex-shrink-0 text-navy-600">
-                                        <Clock className="w-6 h-6" />
-                                    </div>
-
-                                </div>
-
-                                <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-2xl">
-                                    <div className="w-12 h-12 bg-navy-100 rounded-xl flex items-center justify-center flex-shrink-0 text-navy-600">
-                                        <MapPin className="w-6 h-6" />
-                                    </div>
-
-                                </div>
-                            </div>
                         </div>
 
 
