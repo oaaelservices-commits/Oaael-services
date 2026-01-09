@@ -20,28 +20,28 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: `${post.title} | مدونة العزل | شركة عزل أسطح بالرياض | 0551777962`,
     description: post.excerpt,
-   keywords: [
-    // Blog-specific Keywords
-    'مدونة عزل الفوم', 'نصائح عزل الأسطح', 'مقالات العزل المائي', 'دليل العزل عزل الفوم',
-    'مشاكل تسربات المياه', 'حلول ارتفاع فاتورة الكهرباء',
+    keywords: [
+      // Blog-specific Keywords
+      'مدونة عزل الفوم', 'نصائح عزل الأسطح', 'مقالات العزل المائي', 'دليل العزل عزل الفوم',
+      'مشاكل تسربات المياه', 'حلول ارتفاع فاتورة الكهرباء',
 
-    // How-to Keywords
-    'كيفية عزل السطح', 'طريقة عزل الفوم', 'خطوات العزل المائي',
-    'أفضل مواد العزل', 'اختيار شركة العزل المناسبة',
+      // How-to Keywords
+      'كيفية عزل السطح', 'طريقة عزل الفوم', 'خطوات العزل المائي',
+      'أفضل مواد العزل', 'اختيار شركة العزل المناسبة',
 
-    // Problem-solving Keywords
-    'علاج تشققات السطح', 'منع تسرب مياه الأمطار', 'حماية المنزل من الحرارة',
-    'أضرار الرطوبة على المباني', 'صيانة عزل الأسطح',
+      // Problem-solving Keywords
+      'علاج تشققات السطح', 'منع تسرب مياه الأمطار', 'حماية المنزل من الحرارة',
+      'أضرار الرطوبة على المباني', 'صيانة عزل الأسطح',
 
-    // Comparison Keywords
-    'مقارنة أنواع العزل', 'الفرق بين العزل المائي والحراري', 'سعر عزل الفوم مقابل العزل التقليدي',
+      // Comparison Keywords
+      'مقارنة أنواع العزل', 'الفرق بين العزل المائي والحراري', 'سعر عزل الفوم مقابل العزل التقليدي',
 
-    // Seasonal Keywords
-    'عزل الأسطح قبل الشتاء', 'تجهيز المنزل للصيف', 'أهمية العزل في موسم الأمطار',
+      // Seasonal Keywords
+      'عزل الأسطح قبل الشتاء', 'تجهيز المنزل للصيف', 'أهمية العزل في موسم الأمطار',
 
-    // General Keywords
-    'عزل فوم بالرياض', 'شركة عزل بالخرج', 'أفضل شركات العزل'
-  ],
+      // General Keywords
+      'عزل فوم بالرياض', 'شركة عزل بالخرج', 'أفضل شركات العزل'
+    ],
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -83,7 +83,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
   const relatedPosts = getRelatedPosts(post.slug, 3)
 
   return (
-    <div className="min-h-screen bg-gray-50 font-sans" dir="rtl">
+    <div className="min-h-screen bg-gray-50" dir="rtl">
       <StructuredData
         type="article"
         pageData={{
