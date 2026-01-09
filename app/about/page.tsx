@@ -8,6 +8,7 @@ import { Award, Users, Clock, MapPin, Shield, Building, CheckCircle, Target, Eye
 export const metadata: Metadata = {
     title: 'من نحن | شركة اوائل العزل',
     description: 'شركة أوائل العزل - رواد عزل الفوم والأسطح في الرياض لأكثر من 15 عاماً.',
+    keywords: ['شركة عزل فوم بالرياض', 'عزل اسطح بالرياض', 'عزل مائي وحراري', 'من نحن', 'شركة عزل بالرياض'],
 }
 
 export default function AboutPage() {

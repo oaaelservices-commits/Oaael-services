@@ -116,7 +116,7 @@ const Footer = () => {
               <li><Link href="/blog" className="text-gray-400 hover:text-white transition-colors">المدونة</Link></li>
               <li><Link href="/faq" className="text-gray-400 hover:text-white transition-colors">الأسئلة الشائعة</Link></li>
               <li><Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">سياسة الخصوصية</Link></li>
-              <li><Link href="#contact" className="text-gray-400 hover:text-white transition-colors">تواصل معنا</Link></li>
+              <li><Link href="/contact" className="text-gray-400 hover:text-white transition-colors">تواصل معنا</Link></li>
             </ul>
           </div>
 
