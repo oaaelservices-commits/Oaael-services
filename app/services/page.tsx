@@ -20,7 +20,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'خدمات العزل بالرياض | عزل فوم- شينكو - هناجر 0551777962',
+  title: 'خدمات العزل بالرياض | 0551777962 | شركة اوائل العزل',
   description: 'خدمات عزل احترافية بالرياض: عزل فوم، عزل حراري، عزل مائي، عزل خزانات، كشف تسربات. ضمان 10 سنوات وأسعار تنافسية. اتصل الآن: 0551777962',
 }
 

@@ -1,5 +1,3 @@
-'use client'
-
 import { Metadata } from 'next'
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
@@ -7,8 +5,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Award, Users, Clock, MapPin, Shield, Building, CheckCircle, Target, Eye, Phone, Star, Zap, Droplets, Thermometer } from 'lucide-react'
 
-// Note: Metadata cannot be exported from Client Components
-// The metadata should be added to a parent layout or page component
+export const metadata: Metadata = {
+    title: 'من نحن | شركة اوائل العزل',
+    description: 'شركة أوائل العزل - رواد عزل الفوم والأسطح في الرياض لأكثر من 15 عاماً.',
+}
 
 export default function AboutPage() {
     return (

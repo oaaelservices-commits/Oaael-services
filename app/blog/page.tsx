@@ -5,15 +5,15 @@ import { getAllBlogPosts } from '@/lib/blog-data'
 import { Search, Calendar, Clock, ChevronLeft, Tag, Mail } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'المدونة | شركة اكزو موف',
-  description: 'اكتشف أحدث المقالات والنصائح الاحترافية حول نقل الأثاث، العزل، وحلول التخزين في جدة والمملكة.',
+  title: 'المدونة | شركة أوائل العزل',
+  description: 'اكتشف أحدث المقالات والنصائح الاحترافية حول عزل الفوم وعزل الأسطح في الرياض والخرج مع شركة أوائل العزل.',
   keywords: [
-    'مدونة نقل عفش', 'نصائح نقل اثاث', 'شركة اكزو موف', 'عزل اسطح',
-    'نقل عفش جدة', 'تخزين اثاث', 'تغليف احترافي'
+    'عزل فوم بالرياض', 'عزل اسطح بالرياض', 'عزل فوم بالخرج', 'عزل اسطح بالخرج',
+    'شركة عزل فوم', 'عزل مائي وحراري', 'شركة أوائل العزل'
   ],
   openGraph: {
-    title: 'المدونة | شركة اكزو موف',
-    description: 'اكتشف أحدث المقالات والنصائح الاحترافية حول نقل الأثاث والعزل.',
+    title: 'المدونة | شركة أوائل العزل',
+    description: 'اكتشف أحدث المقالات والنصائح الاحترافية حول عزل الفوم وعزل الأسطح في الرياض والخرج مع شركة أوائل العزل.',
     type: 'website',
     locale: 'ar_SA',
   },
@@ -33,7 +33,7 @@ export default function BlogPage() {
             المدونة ومركز المعرفة
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            نشارككم خبراتنا في نقل الأثاث وحلول العزل. مقالات حصرية، نصائح عملية، وأحدث الاتجاهات في المجال.
+            نشارككم خبراتنا في عزل الفوم وحلول حماية الأسطح. مقالات حصرية، نصائح عملية، وأحدث تقنيات العزل المائي والحراري.
           </p>
         </div>
       </div>
@@ -103,7 +103,7 @@ export default function BlogPage() {
               <div className="relative">
                 <input
                   type="text"
-                  placeholder="ابحث في المقالات..."
+                  placeholder="ابحث في مقالات العزل..."
                   className="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all"
                 />
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
@@ -138,7 +138,7 @@ export default function BlogPage() {
                   <Mail className="w-6 h-6 text-amber-500" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">النشرة البريدية</h3>
-                <p className="text-gray-400 mb-6 text-sm">اشترك للحصول على آخر النصائح والعروض الحصرية مباشرة في بريدك.</p>
+                <p className="text-gray-400 mb-6 text-sm">اشترك للحصول على آخر نصائح العزل والعروض الحصرية مباشرة في بريدك.</p>
                 <form className="space-y-3">
                   <input
                     type="email"
