@@ -576,7 +576,7 @@ export default function FoamInsulationPage() {
                     {
                         title: 'عزل أسطح بالرياض',
                         description: 'حماية شاملة للأسطح من الحرارة والأمطار',
-                        href: '/servicesroof-insulation-shinko',
+                        href: '/services/roof-insulation-shinko',
                         icon: <Home className="w-6 h-6" />
                     },
                     {

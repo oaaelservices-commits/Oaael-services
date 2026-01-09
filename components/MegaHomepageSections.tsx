@@ -155,7 +155,7 @@ export function ContentPillars() {
       ثم نطبق طبقات العزل المتعددة حسب احتياجات المبنى. النتيجة: سطح محمي من الحرارة الشديدة والأمطار الغزيرة 
       مع ضمان يصل إلى 10 سنوات.`,
             features: ['عزل حراري + مائي', 'ضمان 10 سنوات', 'حماية شاملة'],
-            link: '/servicesroof-insulation-shinko',
+            link: '/services/roof-insulation-shinko',
             color: 'from-navy-500 to-navy-700'
         }
     ]

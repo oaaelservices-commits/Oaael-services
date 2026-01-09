@@ -194,7 +194,7 @@ export default function AboutPage() {
                                 icon: Building,
                                 title: 'عزل الأسطح الشامل',
                                 description: 'نظام متكامل يجمع بين العزل الحراري والمائي لحماية كاملة مع ضمان يصل إلى 10 سنوات',
-                                link: '/servicesroof-insulation-shinko'
+                                link: '/services/roof-insulation-shinko'
                             }
                         ].map((service, idx) => (
                             <Link
