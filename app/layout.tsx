@@ -88,6 +88,11 @@ export const metadata: Metadata = {
     description: 'شركة عزل أسطح بالرياض والخرج ✅ خبرة 15 سنة ✅ ضمان 10 سنوات ✅ عزل فوم وحراري ومائي ✅ كشف تسربات. اتصل: 0551777962',
     images: ['/insulation-hero.avif'],
   },
+  icons: {
+    icon: '/favicon.webp',
+    apple: '/favicon.webp',
+   
+  },
 }
 
 import FloatingButtons from '@/components/FloatingButtons'
