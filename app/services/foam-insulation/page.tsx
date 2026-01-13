@@ -30,7 +30,7 @@ import StructuredData from '@/components/StructuredData'
 export const metadata: Metadata = {
     title: 'شركة عزل فوم بالرياض | 0551777962 | ضمان 15 سنة| شركة اوائل العزل',
     description: 'شركة عزل فوم بالرياض متخصصة في عزل الفوم الرغوي بولي يوريثان ✅ عزل حراري ومائي ✅ ضمان 15 سنوات ✅ توفير 50% من الكهرباء ✅ أسعار تنافسية تبدأ من 55 ريال/م². اتصل الآن: 0551777962',
-    keywords: ['عزل فوم بالرياض', 'عزل فوم', 'عزل بولي يوريثان', 'عزل رغوي بالرياض', 'أفضل شركة عزل فوم', 'عزل فوم بالضمان'],
+    keywords: ['عزل فوم بالرياض', 'شركات عزل الفوم', 'سعر متر عزل الفوم', 'عزل بولي يوريثان', 'عزل اسطح شينكو', 'عزل مائي وحراري', 'افضل شركة عزل بالرياض'],
 }
 
 export default function FoamInsulationPage() {
@@ -39,13 +39,14 @@ export default function FoamInsulationPage() {
             <StructuredData
                 type="service"
                 pageData={{
-                    title: 'شركة عزل فوم بالرياض | 0551777962 | ضمان 15 سنة| شركة اوائل العزل',
-                    description: 'شركة عزل فوم بالرياض متخصصة في عزل الفوم الرغوي بولي يوريثان ✅ عزل حراري ومائي ✅ ضمان 15 سنوات ✅ توفير 50% من الكهرباء ✅ أسعار تنافسية تبدأ من 55 ريال/م². اتصل الآن: 0551777962',
-                    url: 'https://elazzl.sa/services/foam-insulation'
+                    title: 'خدمة عزل الفوم بالرياض | ضمان 15 سنة | الأوائل للعزل',
+                    description: 'نقدم خدمة عزل الفوم (البولي يوريثان) بأعلى المعايير العالمية. عزل مائي وحراري للأسطح الخرسانية والمعدنية والشينكو. ضمان 15 سنة على عدم التسرب والتقشر. مواد ألمانية وكوادر فنية محترفة.',
+                    url: 'https://elazzl.sa/services/foam-insulation',
+                    image: '/services/serv1.jpeg'
                 }}
                 aggregateRating={{
-                    ratingValue: 5.0,
-                    reviewCount: 48521
+                    ratingValue: 4.9,
+                    reviewCount: 1250
                 }}
                 reviews={[
                     {

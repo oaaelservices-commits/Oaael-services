@@ -25,4 +25,4 @@ Allow: /*.avif$
 Crawl-delay: 10
 
 # Sitemap location
-Sitemap: https://exzofor.com/sitemap.xml
+Sitemap: https://www.elazzl.sa/sitemap.xml

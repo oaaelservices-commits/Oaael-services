@@ -23,7 +23,7 @@ export default function SEOBreadcrumbs({ items, className = '' }: SEOBreadcrumbs
       '@type': 'ListItem',
       position: index + 1,
       name: item.label,
-      item: item.href === '#' ? undefined : `https://exzofor.com${item.href}`,
+      item: item.href === '#' ? undefined : `https://elazzl.com${item.href}`,
     })),
   }
 
@@ -36,9 +36,9 @@ export default function SEOBreadcrumbs({ items, className = '' }: SEOBreadcrumbs
           __html: JSON.stringify(breadcrumbStructuredData),
         }}
       />
-      
+
       {/* Visual Breadcrumbs */}
-      <nav 
+      <nav
         className={`flex items-center space-x-1 space-x-reverse text-sm text-gray-600 mb-6 ${className}`}
         aria-label="مسار التنقل"
       >
@@ -49,8 +49,8 @@ export default function SEOBreadcrumbs({ items, className = '' }: SEOBreadcrumbs
                 <ChevronLeft className="w-4 h-4 mx-2 text-gray-400 rotate-180" />
               )}
               {item.current ? (
-                <span 
-                  className="font-medium text-blue-600" 
+                <span
+                  className="font-medium text-blue-600"
                   aria-current="page"
                 >
                   {item.label}

@@ -150,7 +150,7 @@ export const seoConfig = {
     organization: {
       '@type': 'HomeAndConstructionBusiness',
       name: 'شركة عزل أسطح بالرياض',
-      alternateName: ['عزل فوم الرياض', 'شركة العزل المتقدم'],
+      alternateName: ['عزل فوم الرياض', 'شركة اوائل العزل'],
       url: 'https://elazzl.sa/',
       logo: 'https://elazzl.sa//logo.png',
       telephone: '+966507067378',

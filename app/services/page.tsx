@@ -18,6 +18,7 @@ import {
 } from 'lucide-react'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import StructuredData from '@/components/StructuredData'
 
 export const metadata: Metadata = {
   title: 'خدمات العزل بالرياض | 0551777962 | شركة اوائل العزل',
@@ -139,6 +140,14 @@ const faqs = [
 export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+      <StructuredData
+        type="website"
+        pageData={{
+          title: 'خدمات العزل بالرياض | 0551777962 | شركة اوائل العزل',
+          description: 'خدمات عزل احترافية بالرياض: عزل فوم، عزل حراري، عزل مائي، عزل خزانات، كشف تسربات. ضمان 10 سنوات وأسعار تنافسية. اتصل الآن: 0551777962',
+          url: 'https://elazzl.sa/services'
+        }}
+      />
       <Navbar />
 
       {/* Hero Section */}

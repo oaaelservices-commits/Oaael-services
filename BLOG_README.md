@@ -1,7 +1,7 @@
 # Blog System Documentation
 
 ## Overview
-This blog system has been created for the Exzo Move website with full SEO optimization, static export capability, and modern design. The system includes 4 comprehensive blog posts about furniture moving services in Jeddah.
+This blog system has been created for the elazzl Move website with full SEO optimization, static export capability, and modern design. The system includes 4 comprehensive blog posts about furniture moving services in Jeddah.
 
 ## Features
 

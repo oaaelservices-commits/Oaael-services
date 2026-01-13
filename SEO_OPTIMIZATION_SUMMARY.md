@@ -82,8 +82,8 @@ Disallow: /tmp/
 User-agent: Googlebot
 Crawl-delay: 1
 
-Sitemap: https://exzofor.com/sitemap.xml
-Host: https://exzofor.com
+Sitemap: https://www.elazzl.sa/sitemap.xml
+Host: https://elazzl.com
 ```
 
 ### 5. تحسين خريطة الموقع (Sitemap) 🗺️

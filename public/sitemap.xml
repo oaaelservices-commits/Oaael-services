@@ -3,7 +3,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
   <url>
-    <loc>https://exzofor.com/</loc>
+    <loc>https://www.elazzl.sa/</loc>
     <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -17,31 +17,31 @@
     </geo:geo>
   </url>
   <url>
-    <loc>https://exzofor.com/blog</loc>
+    <loc>https://www.elazzl.sa/blog</loc>
     <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://exzofor.com/#services</loc>
+    <loc>https://www.elazzl.sa/services</loc>
     <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://exzofor.com/#about</loc>
+    <loc>https://www.elazzl.sa/about</loc>
     <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://exzofor.com/#gallery</loc>
+    <loc>https://www.elazzl.sa/privacy</loc>
     <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://exzofor.com/#contact</loc>
+    <loc>https://www.elazzl.sa/contact</loc>
     <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

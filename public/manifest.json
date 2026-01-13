@@ -1,82 +1,67 @@
 {
-  "name": "شركة النقل اكزوموف في الرياض",
-  "short_name": "اكزوموف الرياض",
-  "description": "شركة النقل الحديثة في الرياض تقدم حلول نقل شاملة للمنازل والمكاتب والأثاث",
+  "name": "شركة أوائل العزل - عزل فوم بالرياض",
+  "short_name": "أوائل العزل",
+  "description": "أفضل شركة عزل فوم بالرياض. خدمات عزل مائي وحراري مع ضمان 15 سنة وتوفير 50% من الكهرباء.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#1E40AF",
+  "theme_color": "#F97316",
   "dir": "rtl",
   "lang": "ar-SA",
   "orientation": "any",
-  "categories": ["business", "services", "logistics"],
+  "categories": [
+    "construction",
+    "home improvement",
+    "services"
+  ],
   "scope": "/",
-  "id": "exzofor-riyadh-moving",
+  "id": "elazzl-insulation-riyadh",
   "icons": [
     {
-      "src": "/03.avif",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/03.avif",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/03.avif",
-      "sizes": "128x128",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/03.avif",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/03.avif",
-      "sizes": "152x152",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/03.avif",
+      "src": "/favicon.webp",
       "sizes": "192x192",
-      "type": "image/png",
+      "type": "image/webp",
       "purpose": "any maskable"
     },
     {
-      "src": "/03.avif",
-      "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/03.avif",
+      "src": "/favicon.webp",
       "sizes": "512x512",
-      "type": "image/png",
+      "type": "image/webp",
       "purpose": "any maskable"
     }
   ],
   "shortcuts": [
     {
-      "name": "طلب خدمة",
-      "short_name": "طلب",
-      "description": "طلب خدمة نقل جديدة",
-      "url": "/request",
-      "icons": [{ "src": "/03.avif", "sizes": "96x96" }]
+      "name": "خدماتنا",
+      "short_name": "الخدمات",
+      "description": "تصفح خدمات العزل",
+      "url": "/services",
+      "icons": [
+        {
+          "src": "/favicon.webp",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "اتصل بنا",
+      "short_name": "اتصال",
+      "description": "تواصل مع خدمة العملاء",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/favicon.webp",
+          "sizes": "192x192"
+        }
+      ]
     }
   ],
   "screenshots": [
     {
-      "src": "/03.avif",
-      "sizes": "1920x1080",
-      "type": "image/png",
-      "label": "الصفحة الرئيسية لشركة النقل اكزوموف"
+      "src": "/services/serv1.jpeg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "label": "خدمات عزل الفوم"
     }
   ]
 }
