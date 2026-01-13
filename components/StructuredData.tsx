@@ -17,7 +17,7 @@ interface AggregateRating {
 }
 
 interface StructuredDataProps {
-  type?: 'website' | 'localBusiness' | 'service' | 'article'
+  type?: 'website' | 'localBusiness' | 'service' | 'article' | 'product'
   pageData?: {
     title?: string
     description?: string
@@ -140,7 +140,30 @@ export default function StructuredData({ type = 'website', pageData, reviews, ag
     }
   }
 
-  // Service Schema
+  // Product Schema (for Rich Snippets)
+  // Google prefers Product or LocalBusiness for review snippets. Service is not supported.
+  const productSchema = (type === 'service' || type === 'product') && (aggregateRating || reviews) ? {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": pageData?.title || "خدمة عزل",
+    "description": pageData?.description,
+    "image": pageData?.image ? (pageData.image.startsWith('http') ? pageData.image : `${baseUrl}${pageData.image}`) : undefined,
+    "brand": {
+      "@type": "Brand",
+      "name": companyName
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "SAR",
+      "lowPrice": "25",
+      "highPrice": "100", // Estimated max
+      "offerCount": "3"
+    },
+    "aggregateRating": currentAggregateRating,
+    "review": reviewSchema
+  } : null
+
+  // Service Schema (Clean - No Reviews/Ratings to avoid validation errors)
   const serviceSchema = type === 'service' ? {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -194,15 +217,14 @@ export default function StructuredData({ type = 'website', pageData, reviews, ag
           }
         }
       ]
-    },
-    "aggregateRating": currentAggregateRating,
-    "review": reviewSchema
+    }
+    // REMOVED aggregateRating and review from Service to avoid Google Console Errors
   } : null
 
   const getSchemas = () => {
     const schemas: any[] = [organizationSchema, websiteSchema]
     if (serviceSchema) schemas.push(serviceSchema)
-    // Add other schemas logic here if needed
+    if (productSchema) schemas.push(productSchema)
     return schemas
   }
 
